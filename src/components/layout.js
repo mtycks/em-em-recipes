@@ -8,20 +8,9 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
-    
-
-    if (location.pathname === rootPath) {
-      header = (
-        <span>...</span>
-      )
-    } else {
-      header = (
-        <span>......</span>
-      )
-    }
     return (
       <div>
-        <header><Navigation />{header}</header>
+        <header><Navigation /></header>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
