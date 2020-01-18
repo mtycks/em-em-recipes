@@ -1,7 +1,10 @@
 ---
-title: Hello World
+title: Perfect Popcorn
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
+thumbnail: ./thumbnail.jpg
+prep: "20 min."
+cook: "20 min."
 ---
 
 This is my first post on my new fake blog! How exciting!

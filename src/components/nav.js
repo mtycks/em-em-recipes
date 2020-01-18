@@ -20,37 +20,33 @@ const Navigation = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+    <div id="main_nav">
+      <Navbar color="white" light expand="md">
+        <NavbarBrand href="/">Em Em Recipes</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="/">Home</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                All Recipes
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                  Instant Pot
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
+                  Appetizers
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/search">Search</NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText>Sign Up for our Newsletter</NavbarText>
         </Collapse>
       </Navbar>
     </div>

@@ -13,7 +13,7 @@ const Marquee = () => {
 
   const data = useStaticQuery(graphql`
     query MarqueeQuery {
-      marqueeImage: file(absolutePath: { regex: "/header.jpg/" }) {
+      marqueeImage: file(absolutePath: { regex: "/header-fusilli.jpg/" }) {
         childImageSharp {
           fluid(maxWidth: 1400) {
             ...GatsbyImageSharpFluid
@@ -24,26 +24,13 @@ const Marquee = () => {
   `)
 
   return (
-    <div>
-      <p>
-        Marquee Component
-      </p>
-
-      <div className="marquee-holder">
-        <Image
-          fluid={data.marqueeImage.childImageSharp.fluid}
-          imgStyle={{
-            borderRadius: `20px`,
-          }}
-        />
-        <div className="text-box">
-          <h2>Choose from thousands of recipes</h2>
-          <p>Appropriately integrate technically sound value with scalable informediaries negotiate sustainable strategic theme areas</p>
-          <p><strong>Sign up today</strong></p>
-        </div>
-        
+    <div className="marquee-holder mb-5">
+      <Image fluid={data.marqueeImage.childImageSharp.fluid} />
+      <div className="text-box">
+        <h2>Finally, a recipe website that gets straight to the point.</h2>
+        <p class="lead">Because you don't need to read a story.<br /><strong>You just need the damn recipe.</strong></p>
       </div>
-
+      
     </div>
   )
   

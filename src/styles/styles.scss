@@ -1,0 +1,74 @@
+body{
+    font-family:"Montserrat", san-serif !important;
+}
+
+#main_nav .navbar{
+    padding-bottom:2rem;
+    padding-top:2rem;
+}
+
+#main_nav .navbar-light .navbar-brand{
+    color: $orange;
+    font-family:"Leckerli One", cursive;
+    font-size:1.5625rem;
+}
+
+.marquee-holder{
+    border-radius:20px;
+    display:inline-block;
+    overflow:hidden;
+    position:relative;
+    width:100%;
+}
+
+    .marquee-holder img{
+        display:block;
+    }
+
+    .marquee-holder .text-box{
+        color:#3d3d3d;
+        position: absolute;
+        left:0;
+        right:0;
+        display:flex;
+        height:100%;
+        top:0;
+        width:50%;
+        flex-direction:column;
+        justify-content:center;
+        padding-left:3rem;
+    }
+
+    .marquee-holder .text-box h2{
+        font-size:3rem;
+        font-weight:600;
+        margin:0 0 1rem;
+    }
+
+.hp-recipes{
+
+}
+
+    .hp-recipes article{
+        display:flex;
+        flex-direction:column;
+        height:100%;
+        padding-bottom:2rem;
+    }
+
+    .hp-recipes h3{
+        font-size:0.9375rem;
+        font-weight:600;
+    }
+
+    .hp-recipes article .gatsby-image-wrapper{
+        margin-bottom:1rem;
+    }
+
+    .hp-recipes article img{
+        border-radius:20px;
+    }
+
+    .hp-recipes article footer{
+        margin-top:auto;
+    }

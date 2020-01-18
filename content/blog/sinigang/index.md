@@ -1,6 +1,9 @@
 ---
-title: My Second Post!
+title: Sinigang
 date: "2015-05-06T23:46:37.121Z"
+thumbnail: ./thumbnail.jpg
+prep: "20 min."
+cook: "20 min."
 ---
 
 Wow! I love blogging so much already.
