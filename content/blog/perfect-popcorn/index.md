@@ -1,25 +1,64 @@
 ---
 title: Perfect Popcorn
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: "2020-02-21T22:12:03.284Z"
+description: "How to make popcorn that tastes like Main Street popcorn from Disneyland or the best movie theater popcorn you've ever had."
 thumbnail: ./thumbnail.jpg
-prep: "20 min."
-cook: "20 min."
+full_img: ./full-img-popcorn-@2x.jpg
+prep: "1 min."
+cook: "10 min."
+servings: "5"
+ingredients:
+- ingredient: Yellow Popcorn Kernels
+  amount: 1/2 Cup
+  link: "https://www.amazon.com/Orville-Redenbachers-Original-Gourmet-Popcorn/dp/B000RPYX4W/"
+- ingredient: Flavacol
+  amount: 1/4 to 1/2 teaspoons
+  link: "https://www.amazon.com/Gold-Medal-Prod-Flavacol-Seasoning/dp/B004W8LT10"
+- ingredient: Coconut Oil
+  amount: 3 tablespoons
+  link: "https://www.amazon.com/Viva-Naturals-Organic-Virgin-Coconut/dp/B00DS842HS/"
+tools:
+- name: Large Heavy Pot with Lid
+  link: "https://matthewmesa.com"
+- name: Measuring Cups (1/2 cup)
+- name: Measuring Sppons (1/4 tsp., 1/2 tsp., 1 tbsp.)
+tags:
+- Snack
+- Appetizer
 ---
 
-This is my first post on my new fake blog! How exciting!
+#### Step 1
 
-I'm sure I'll write a lot more interesting things in the future.
+Add three (3) tablespoons of unrefined coconut oil to a large heavy pot.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+#### Step 2
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Sprinkle 1/4 to 1/2 teaspoons of Flavacol **on top** of the coconut oil
 
-![Chinese Salty Egg](./salty_egg.jpg)
+#### Step 3
+
+Add three (3) unpopped kernels on top of the coconut oil, set the burner to medium high (on my stove I set it to the number six) and cover the pot.
+
+#### Step 4
+
+After all three kernels have popped (approximately 3-4 minutes), add the rest of the kernels to the pot, place the lid back on and **turn off** the burner. Make sure the kernels are evenly spread out (should be one layer).
+
+#### Step 5
+
+Let the kernels sit in the oil with the burner off for 60 seconds.
+
+#### Step 6
+
+After 60 seconds have passed, turn the burner back on medium high. Once the kernels start popping at a good pace, open the lid slightly to let the steam escape (this ensures we don't get any soggy popcorn).
+
+#### Step 7
+
+If you have a good heavy pot, the heat will be evenly distributed and will pop almost all of the kernels within 3-5 minutes. Once the popping stops or has slowed down significantly, turn off the burner.
+
+#### Step 8
+
+Carefully remove the lid (watch out for the steam) and pour the popcorn into a serving bowl.
+
+#### Last Step!
+
+Enjoy!

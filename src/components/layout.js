@@ -4,15 +4,13 @@ import '../styles/index.scss'
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    let header
+    const { children } = this.props
 
     return (
       <div>
         <header><Navigation /></header>
         <main>{children}</main>
-        <footer>
+        <footer className="container">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
 
-        <div className="container-fluid">
+        <div className="container">
           <Row>
             <Col>
               <Marquee />
@@ -25,7 +25,7 @@ class BlogIndex extends React.Component {
           </Row>
         </div>
 
-        <div className="container-fluid">
+        <div className="container">
 
           <Row>
             <Col sm="3">
@@ -38,15 +38,17 @@ class BlogIndex extends React.Component {
                 return (
                   <Col sm="4">
                     <article key={node.fields.slug}>
-                      <header>
-                        <Img alt={node.frontmatter.title} fluid={node.frontmatter.thumbnail.childImageSharp.fluid} />
-                      </header>
-                      <section>
-                        <h3>{title}</h3>
-                      </section>
-                      <footer>
-                        <small>Prep: {node.frontmatter.prep} | Cook: {node.frontmatter.cook}</small>
-                      </footer>
+                      <Link to={node.fields.slug}>
+                        <header>
+                          <Img alt={node.frontmatter.title} fluid={node.frontmatter.thumbnail.childImageSharp.fluid} />
+                        </header>
+                        <section>
+                          <h3>{title}</h3>
+                        </section>
+                        <footer>
+                          <small>Prep: {node.frontmatter.prep} | Cook: {node.frontmatter.cook}</small>
+                        </footer>
+                      </Link>
                     </article>
                   </Col>
                 )
