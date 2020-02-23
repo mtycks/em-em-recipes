@@ -29,7 +29,7 @@ const Navigation = (props) => {
               <NavLink href="/recipes">All Recipes</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/search">Search</NavLink>
+              <NavLink href="/about">About Us</NavLink>
             </NavItem>
           </Nav>
           <Link className="btn btn-primary push-right" to="contact">Contact Us</Link>

@@ -28,7 +28,7 @@ const Marquee = () => {
       <Image fluid={data.marqueeImage.childImageSharp.fluid} />
       <div className="text-box">
         <h2>Finally, a recipe website that gets straight to the point.</h2>
-        <p class="lead">Because you don't need to read a story.<br /><strong>You just need the damn recipe.</strong></p>
+        <p className="lead">Because you don't need to read a story.<br /><strong>You just need the damn recipe.</strong></p>
       </div>
       
     </div>

@@ -12,6 +12,9 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    const tags = data.tags.group
+
+    console.log(tags)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -30,6 +33,15 @@ class BlogIndex extends React.Component {
           <Row>
             <Col sm="3">
               <h3>Recipes</h3>
+              <ul className="recipe-tags list-unstyled">
+                {tags.map(({ tag, totalCount }) => {
+                  return (
+                    <li key={tag.tag} className="mb-0 pb-2 pt-2">
+                      {tag} ({totalCount})
+                    </li>
+                  )
+                })}
+              </ul>
             </Col>
             <Col sm="9" className="hp-recipes">
               <Row>
@@ -94,6 +106,12 @@ export const pageQuery = graphql`
             }
           }
         }
+      }
+    }
+    tags: allMarkdownRemark(limit: 2000){
+      group(field: frontmatter___tags) {
+        tag: fieldValue
+        totalCount
       }
     }
   }
