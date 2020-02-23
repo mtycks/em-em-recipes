@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                tags
               }
             }
           }
@@ -48,6 +49,7 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

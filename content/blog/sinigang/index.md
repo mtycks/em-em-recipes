@@ -1,5 +1,5 @@
 ---
-title: Sinigang
+title: Instant Pot Filipino Sinigang
 date: "2015-05-06T23:46:37.121Z"
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-sinigang-@2x.jpg

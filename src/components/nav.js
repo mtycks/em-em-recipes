@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "gatsby"
 import {
   Collapse,
   Navbar,
@@ -6,12 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  NavLink
 } from 'reactstrap';
 
 const Navigation = (props) => {
@@ -29,24 +25,14 @@ const Navigation = (props) => {
             <NavItem>
               <NavLink href="/">Home</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                All Recipes
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Instant Pot
-                </DropdownItem>
-                <DropdownItem>
-                  Appetizers
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/recipes">All Recipes</NavLink>
+            </NavItem>
             <NavItem>
               <NavLink href="/search">Search</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>Sign Up for our Newsletter</NavbarText>
+          <Link className="btn btn-primary push-right" to="contact">Contact Us</Link>
         </Collapse>
       </Navbar>
     </div>
