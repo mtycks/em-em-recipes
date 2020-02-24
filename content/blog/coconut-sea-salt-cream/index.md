@@ -4,9 +4,9 @@ date: "2015-05-28T22:40:32.169Z"
 description: Love Starbucks' sea salt cold foam? This is the non-dairy recipe that'll add that same great creaminess to your coldbrew coffee.
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-coconut-cream-@2x.jpg
-prep: "20 min."
-cook: "20 min."
-servings: "10"
+prep: "5 min."
+cook: "-- min."
+servings: "4"
 ingredients:
 - ingredient: Yellow Popcorn Kernels
   amount: 1/2 Cup

@@ -1,7 +1,7 @@
 ---
-title: Perfect Instant Pot Brown RIce
+title: Perfect Instant Pot Brown Rice
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Cooking rice in the Instant Pot shouldn't be a guessing game! Use our recipe to get perfect long-grain brown rice every time.
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-brown-rice-@2x.jpg
 prep: "20 min."
@@ -18,8 +18,8 @@ ingredients:
   amount: 3 tablespoons
   link: "https://www.amazon.com/Viva-Naturals-Organic-Virgin-Coconut/dp/B00DS842HS/"
 tools:
-- name: Large Heavy Pot with Lid
-  link: "https://matthewmesa.com"
+- name: Instant Pot
+  link: "https://amzn.to/32mE48g"
 - name: Measuring Cups (1/2 cup)
 - name: Measuring Sppons (1/4 tsp., 1/2 tsp., 1 tbsp.)
 tags:

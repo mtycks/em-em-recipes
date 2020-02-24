@@ -23,7 +23,9 @@ tools:
 - name: Measuring Cups (1/2 cup)
 - name: Measuring Sppons (1/4 tsp., 1/2 tsp., 1 tbsp.)
 tags:
-- Snack
+- Breakfast
+- Gluten-free
+- Vegan
 - Dessert
 ---
 

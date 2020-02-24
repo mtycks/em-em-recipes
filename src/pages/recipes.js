@@ -1,13 +1,12 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Marquee from "../components/marquee"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import RecipeCard from '../components/recipe-card'
 
-class BlogIndex extends React.Component {
+class AllRecipes extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -18,15 +17,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-
-        <div className="container">
-          <Row>
-            <Col>
-              <Marquee />
-            </Col>
-          </Row>
-        </div>
+        <SEO title="View all Em Em Recipes" />
 
         <div className="container">
 
@@ -37,7 +28,7 @@ class BlogIndex extends React.Component {
                 {tags.map(({ tag, totalCount }) => {
                   return (
                     <li key={tag.tag} className="mb-0 pb-2 pt-2 col-4 col-lg-12">
-                      {tag} <span className="d-none d-sm-inline-block">({totalCount})</span>
+                      {tag} ({totalCount})
                     </li>
                   )
                 })}
@@ -62,7 +53,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default AllRecipes
 
 export const pageQuery = graphql`
   query {

@@ -9,8 +9,7 @@ a:visited{
 }
 
 #main_nav .navbar{
-    padding-bottom:2rem;
-     padding-top:2rem;
+   padding: 2rem 0;
 }
 
 #main_nav .navbar-light .navbar-brand{
@@ -87,6 +86,16 @@ a:visited{
     .hp-recipes article footer{
         margin-top:auto;
     }
+
+.recipe-card a{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+.recipe-card section{
+    flex:1;
+}
 
 .recipe-full-img{
     border-radius:20px;
@@ -290,4 +299,40 @@ a.btn.btn-primary,
 button.btn.btn-primary{
     background-color:$orange;
     border-color:$orange;
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .marquee-holder .text-box{
+        padding-left:1.5rem;
+    }
+    .marquee-holder .text-box h2{
+        font-size:2rem;
+        margin-bottom:0;
+    }
+    .marquee-holder .text-box p.lead{
+        font-size:1rem;
+    }
+}
+
+@media(max-width:767px){
+
+    .marquee-holder .text-box{
+        padding-left:.75rem;
+        width:75%;
+    }
+
+    .marquee-holder .text-box h2{
+        font-size:1.95rem;
+        margin-bottom:0;
+    }
+
+    .marquee-holder .text-box p.lead{
+       font-size:.8rem;
+       font-weight:600;
+    }
+
+    .marquee-holder .gatsby-image-wrapper > div{
+        padding-bottom:100% !important;
+    }
+
 }

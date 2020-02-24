@@ -25,6 +25,7 @@ tools:
 tags:
 - Snack
 - Dessert
+- Instant Pot
 ---
 
 #### Step 1
