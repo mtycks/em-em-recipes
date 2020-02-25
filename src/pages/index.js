@@ -1,11 +1,11 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Marquee from "../components/marquee"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col } from 'reactstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import RecipeCard from '../components/recipe-card'
+import { slugify } from '../utils/utilityFunctions'
 
 class BlogIndex extends React.Component {
   render() {
@@ -13,8 +13,6 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
     const tags = data.tags.group
-
-    console.log(tags)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -37,7 +35,9 @@ class BlogIndex extends React.Component {
                 {tags.map(({ tag, totalCount }) => {
                   return (
                     <li key={tag.tag} className="mb-0 pb-2 pt-2 col-4 col-lg-12">
-                      {tag} <span className="d-none d-sm-inline-block">({totalCount})</span>
+                      <Link to={`/tags/${slugify(tag)}`} className="portfolio-item">
+                        {tag} <span className="d-none d-sm-inline-block">({totalCount})</span>
+                      </Link>
                     </li>
                   )
                 })}
@@ -47,7 +47,7 @@ class BlogIndex extends React.Component {
               <Row>
               {posts.map(({ node }) => {
                 return (
-                  <Col xl="4" xs="6">
+                  <Col xl="4" sm="6" xs="12">
                     <RecipeCard recipe={node} />
                   </Col>
                 )
@@ -71,7 +71,12 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { 
+        frontmatter: { hidden: { ne: 1 } }
+      }, 
+      sort: { fields: [frontmatter___date], order: DESC }
+      ) {
       edges {
         node {
           excerpt
@@ -84,6 +89,7 @@ export const pageQuery = graphql`
             description
             prep
             cook
+            hidden
             thumbnail{
               childImageSharp{
                 fluid(maxWidth:500, quality:80){

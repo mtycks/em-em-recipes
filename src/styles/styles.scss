@@ -231,6 +231,42 @@ svg {
     transform: translate(0, 0);
 }
 
+.recipe-detail-columns{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+    .recipe-detail-columns .recipe-detail{
+        padding:1rem;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        position:relative;
+        overflow: hidden;
+        flex-grow:1;
+        flex-basis:0;
+    }
+
+    .recipe-detail-columns .recipe-detail:nth-child(2):before,
+    .recipe-detail-columns .recipe-detail:nth-child(2):after{
+        height:100%;
+        position:absolute;
+        top:0;
+    }
+
+    .recipe-detail-columns .recipe-detail:nth-child(2):before{
+        border-left:1px solid #eaecf0;
+        content: '';
+        left:0;
+    }
+
+    .recipe-detail-columns .recipe-detail:nth-child(2):after{
+        border-right:1px solid #eaecf0;
+        content: '';
+        right:0;
+    }
+
 .sidebar-list{
     color:#4a4a4a;
     margin-bottom:3rem;
@@ -301,6 +337,34 @@ button.btn.btn-primary{
     border-color:$orange;
 }
 
+.recipe-tags a:link,
+.recipe-tags a:visited{
+    color:#000000;
+    display:block;
+}
+
+.recipe-tags a:hover{
+    color:$orange;
+    text-decoration:none;
+}
+
+.navbar-light .navbar-toggler{
+    border:none;
+}
+
+.recipe-footer-nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+    .recipe-footer-nav li{
+        max-width:50%;
+    }
+
+    .recipe-footer-nav li:last-child{
+        text-align:right;
+    }
+
 @media(min-width:768px) and (max-width:991px){
     .marquee-holder .text-box{
         padding-left:1.5rem;
@@ -316,23 +380,47 @@ button.btn.btn-primary{
 
 @media(max-width:767px){
 
+    .marquee-holder .gatsby-image-wrapper{
+        opacity:.55;
+    }
+
     .marquee-holder .text-box{
-        padding-left:.75rem;
-        width:75%;
+        padding: .75rem;
+        width: 100%;
+        text-align: center;
+        text-shadow:0px 0px 6px rgba(255,255,255,.4);
     }
 
     .marquee-holder .text-box h2{
-        font-size:1.95rem;
+        font-size:1.25rem;
         margin-bottom:0;
     }
 
     .marquee-holder .text-box p.lead{
-       font-size:.8rem;
-       font-weight:600;
+       font-size:1rem;
+       font-weight:500;
+       margin-bottom:0;
+       margin-top:5px;
     }
 
     .marquee-holder .gatsby-image-wrapper > div{
         padding-bottom:100% !important;
+    }
+
+    .navbar-collapse{
+        text-align:center;
+    }
+
+    .nav-item:first-child{
+        border-top:1px solid #eaecf0;
+        margin-top:1rem;
+        padding-top:1rem;
+    }
+
+    .nav-item{
+        border-bottom:1px solid #eaecf0;
+        margin-bottom:1rem;
+        padding-bottom:1rem;
     }
 
 }

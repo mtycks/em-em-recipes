@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Em Em Recipes`,
+    author: `Em Em Digital`,
+    description: `A recipe website that gets straight to the point.`,
+    siteUrl: `https://ememrecipes.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ememdigital`,
     },
   },
   plugins: [
@@ -61,18 +61,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-130003690-6`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Em Em Recipes`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#Eb4A36`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },

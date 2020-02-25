@@ -20,7 +20,7 @@ const RecipeCard = ({recipe}) => {
         <section>
           <h3>{recipe.frontmatter.title}</h3>
         </section>
-        <footer className="d-none d-sm-block">
+        <footer>
           <small>Prep: {recipe.frontmatter.prep} | Cook: {recipe.frontmatter.cook}</small>
         </footer>
       </Link>

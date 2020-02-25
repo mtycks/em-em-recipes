@@ -34,6 +34,7 @@ tags:
 - Dinner
 - Chamorro
 - Noodles
+hidden: 1
 ---
 
 #### Step 1

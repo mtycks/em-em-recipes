@@ -10,10 +10,8 @@ class Layout extends React.Component {
       <div>
         <header><Navigation /></header>
         <main>{children}</main>
-        <footer className="container">
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer className="container pb-5 pt-5 text-center">
+          © {new Date().getFullYear()} Em Em Recipes
         </footer>
       </div>
     )

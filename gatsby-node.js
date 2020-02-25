@@ -1,3 +1,4 @@
+const { slugify } = require('./src/utils/utilityFunctions')
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require('lodash') 
@@ -5,7 +6,8 @@ const _ = require('lodash')
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogPost = path.resolve(`./src/templates/recipe-page.js`)
+  const tagPage = path.resolve(`./src/templates/tag-page.js`)
   const result = await graphql(
     `
       {
@@ -20,9 +22,14 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               frontmatter {
                 title
-                tags
               }
             }
+          }
+        }
+        tags: allMarkdownRemark(limit: 2000){
+          group(field: frontmatter___tags) {
+            tag: fieldValue
+            totalCount
           }
         }
       }
@@ -50,6 +57,24 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  //Create pages for each tag
+  const tags = result.data.tags.group
+
+  {tags.map(({ tag, totalCount }) => {
+
+    //Create tags page
+    createPage({
+      path: `/tags/${slugify(tag)}`,
+      component: tagPage,
+      context: {
+        tag,
+        totalCount
+      },
+    })
+
+  })}
+
 
 }
 
