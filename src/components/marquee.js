@@ -9,7 +9,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
-const Marquee = () => {
+const Marquee = ({title, subTitle}) => {
 
   const data = useStaticQuery(graphql`
     query MarqueeQuery {
@@ -27,8 +27,8 @@ const Marquee = () => {
     <div className="marquee-holder mb-5">
       <Image fluid={data.marqueeImage.childImageSharp.fluid} />
       <div className="text-box">
-        <h2>Finally, a recipe website that gets straight to the point.</h2>
-        <p className="lead">Because you don't need to read a story.<br />You just need the damn recipe.</p>
+      <h2 dangerouslySetInnerHTML={{__html: title}}></h2>
+        <p className="lead" dangerouslySetInnerHTML={{__html: subTitle}}></p>
       </div>
       
     </div>

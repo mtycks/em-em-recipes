@@ -13,6 +13,8 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
     const tags = data.tags.group
+    const marqueeTitle = "Finally, a recipe website that gets straight to the point."
+    const marqueeSubtitle = "Because you don't need to read a story.<br />You just need the damn recipe."
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -21,7 +23,7 @@ class BlogIndex extends React.Component {
         <div className="container">
           <Row>
             <Col>
-              <Marquee />
+              <Marquee title={marqueeTitle} subTitle={marqueeSubtitle} />
             </Col>
           </Row>
         </div>
