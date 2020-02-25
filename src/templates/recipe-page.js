@@ -5,12 +5,20 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col, Badge } from 'reactstrap'
 import { slugify } from '../utils/utilityFunctions'
+import { DiscussionEmbed } from "disqus-react"
 
 class RecipePageTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+    const { slug, previous, next } = this.props.pageContext
+    const {title} = post.frontmatter
+
+    //Define the Disqus configuration object
+    const disqusConfig = {
+      shortname: process.env.GATSBY_DISQUS_NAME,
+      config: { identifier: slug, title },
+    }
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -99,6 +107,11 @@ class RecipePageTemplate extends React.Component {
                             </li>
                         ))}
                     </ul>
+                  </Col>
+                </Row>
+                <Row className="mb-5 mt-5">
+                  <Col xs="12">
+                    <DiscussionEmbed {...disqusConfig} />
                   </Col>
                 </Row>
               
