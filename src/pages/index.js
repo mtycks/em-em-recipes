@@ -74,9 +74,6 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { 
-        frontmatter: { hidden: { ne: 1 } }
-      }, 
       sort: { fields: [frontmatter___date], order: DESC }
       ) {
       edges {
@@ -91,7 +88,6 @@ export const pageQuery = graphql`
             description
             prep
             cook
-            hidden
             thumbnail{
               childImageSharp{
                 fluid(maxWidth:500, quality:80){
