@@ -16,7 +16,7 @@ const Marquee = ({title, subTitle}) => {
       marqueeImage: file(absolutePath: { regex: "/header-fusilli.jpg/" }) {
         childImageSharp {
           fluid(maxWidth: 1400, quality: 100) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
