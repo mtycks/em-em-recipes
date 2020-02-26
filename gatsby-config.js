@@ -74,7 +74,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#Eb4A36`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/emem-recipes-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

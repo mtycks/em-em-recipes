@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from "gatsby"
+import { Link, useStaticQuery } from "gatsby"
+import Image from "gatsby-image"
 import {
   Collapse,
   Navbar,
@@ -11,6 +12,19 @@ import {
 } from 'reactstrap';
 
 const Navigation = (props) => {
+
+  const data = useStaticQuery(graphql`
+    query NavigationQuery {
+      navLogo: file(absolutePath: { regex: "/EMEM-orange-icon.png/" }) {
+        childImageSharp {
+          fluid(maxWidth: 50, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -18,7 +32,7 @@ const Navigation = (props) => {
   return (
     <div id="main_nav" className="container">
       <Navbar color="white" light expand="md">
-        <NavbarBrand href="/">Em Em Recipes</NavbarBrand>
+        <NavbarBrand href="/"><Image fluid={data.navLogo.childImageSharp.fluid} style={{width: "30px", marginRight: "10px", display: "inline-block"}} /> Em Em Recipes</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
