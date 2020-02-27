@@ -16,7 +16,7 @@ class RecipePageTemplate extends React.Component {
 
     //Define the Disqus configuration object
     const disqusConfig = {
-      shortname: process.env.GATSBY_DISQUS_NAME,
+      shortname: "em-em-recipes",
       config: { identifier: slug, title },
     }
 
