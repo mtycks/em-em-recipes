@@ -13,10 +13,10 @@ class RecipePageTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { slug, previous, next } = this.props.pageContext
     const {title} = post.frontmatter
-
+    const shortname = "em-em-recipes"
     //Define the Disqus configuration object
     const disqusConfig = {
-      shortname: "em-em-recipes",
+      shortname: shortname,
       config: { identifier: slug, title },
     }
 
