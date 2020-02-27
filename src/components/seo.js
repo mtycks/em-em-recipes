@@ -11,7 +11,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 
-function SEO({ description, lang, meta, title, isRecipe, image, steps }) {
+function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -51,12 +51,13 @@ function SEO({ description, lang, meta, title, isRecipe, image, steps }) {
           },
           name: title,
           description: description,
-          cookTime: "PT10M",
-          prepTime: "PT11M",
-          recipeYield: "7",
+          cookTime: "PT" + parseInt(recipe.cook) + "M",
+          prepTime: "PT" + parseInt(recipe.prep) + "M",
+          recipeYield: recipe.servings,
           recipeCategory: "Dinner",
           image: `https://ememrecipes.com` + image,
-          recipeInstructions: []
+          recipeInstructions: [],
+          recipeIngredient: []
       };
 
       //Loop through the steps array to add to the JSONLD
@@ -66,6 +67,13 @@ function SEO({ description, lang, meta, title, isRecipe, image, steps }) {
             '@type': "HowToStep",
             text: step
           }
+        )
+      });
+
+      //Loop through the ingredients array to add to the JSONLD
+      recipe.ingredients.forEach(ingredient => {
+        recipeSchemaJSONLD.recipeIngredient.push(
+          ingredient.amount + " " + ingredient.ingredient
         )
       });
       

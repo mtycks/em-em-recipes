@@ -29,6 +29,7 @@ class RecipePageTemplate extends React.Component {
           datePublished={post.frontmatter.date}
           image={post.frontmatter.full_img.publicURL}
           steps={post.frontmatter.steps}
+          recipe={post.frontmatter}
         />
         <div className="container">
           <Row className="recipe-detail-row">

@@ -31,6 +31,12 @@ steps:
   - "Add three (3) tablespoons of unrefined coconut oil to a large heavy pot."
   - "Sprinkle 1/4 to 1/2 teaspoons of Flavacol **on top** of the coconut oil"
   - "Add three (3) unpopped kernels on top of the coconut oil, set the burner to medium high (on my stove I set it to the number six) and cover the pot."
+  - "After all three kernels have popped (approximately 3-4 minutes), add the rest of the kernels to the pot, place the lid back on and **turn off** the burner. Make sure the kernels are evenly spread out (should be one layer)."
+  - "Let the kernels sit in the oil with the burner off for 60 seconds."
+  - "After 60 seconds have passed, turn the burner back on medium high. Once the kernels start popping at a good pace, open the lid slightly to let the steam escape (this ensures we don't get any soggy popcorn)."
+  - "If you have a good heavy pot, the heat will be evenly distributed and will pop almost all of the kernels within 3-5 minutes. Once the popping stops or has slowed down significantly, turn off the burner."
+  - "Carefully remove the lid (watch out for the steam) and pour the popcorn into a serving bowl."
+  - "Enjoy!"
 ---
 
 #### Step 1
