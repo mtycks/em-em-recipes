@@ -4,6 +4,7 @@ module.exports = {
     author: `Em Em Digital`,
     description: `A recipe website that gets straight to the point.`,
     siteUrl: `https://ememrecipes.com`,
+    images: `content/assets/emem-recipes-icon.png`,
     social: {
       twitter: `ememdigital`,
     },

@@ -46,7 +46,7 @@ const Navigation = (props) => {
               <NavLink href="/about">About Us</NavLink>
             </NavItem>
           </Nav>
-          <Link className="btn btn-primary push-right" to="contact">Contact Us</Link>
+          <Link className="btn btn-primary push-right" to="/contact">Contact Us</Link>
         </Collapse>
       </Navbar>
     </div>

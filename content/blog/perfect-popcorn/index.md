@@ -27,6 +27,10 @@ tools:
 tags:
 - Snack
 - Appetizer
+steps:
+  - "Add three (3) tablespoons of unrefined coconut oil to a large heavy pot."
+  - "Sprinkle 1/4 to 1/2 teaspoons of Flavacol **on top** of the coconut oil"
+  - "Add three (3) unpopped kernels on top of the coconut oil, set the burner to medium high (on my stove I set it to the number six) and cover the pot."
 ---
 
 #### Step 1

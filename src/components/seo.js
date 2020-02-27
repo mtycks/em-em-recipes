@@ -10,7 +10,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+
+function SEO({ description, lang, meta, title, isRecipe, image, steps }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,6 +20,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -26,6 +28,56 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+  const getSchemaOrgJSONLD = () => {
+
+    const schemaOrgJSONLD = [
+      {
+        '@context': 'http://schema.org',
+        '@type': 'WebSite',
+        name: site.title,
+        alternateName: site.siteMetadata.title,
+      },
+    ];
+    
+    if(isRecipe){
+
+      const recipeSchemaJSONLD = {
+          '@context': 'http://schema.org',
+          '@type': 'Recipe',
+          author: {
+            '@type': 'Organization',
+            name: 'Em Em Recipes'
+          },
+          name: title,
+          description: description,
+          cookTime: "PT10M",
+          prepTime: "PT11M",
+          recipeYield: "7",
+          recipeCategory: "Dinner",
+          image: `https://ememrecipes.com` + image,
+          recipeInstructions: []
+      };
+
+      //Loop through the steps array to add to the JSONLD
+      steps.forEach(step => {
+        recipeSchemaJSONLD.recipeInstructions.push(
+          {
+            '@type': "HowToStep",
+            text: step
+          }
+        )
+      });
+      
+
+      return [ ...schemaOrgJSONLD, recipeSchemaJSONLD ]
+    }
+
+    return schemaOrgJSONLD
+
+  };
+
+  const schemaOrgJSONLD = getSchemaOrgJSONLD();
 
   return (
     <Helmet
@@ -68,7 +120,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      
+      {/* Schema.org tags */}
+      <script type="application/ld+json">
+        {JSON.stringify(schemaOrgJSONLD)}
+      </script>
+
+    </Helmet>
   )
 }
 
