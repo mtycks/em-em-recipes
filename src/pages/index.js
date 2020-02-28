@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Home" />
 
-        <div className="container">
+        <div className="container marquee-container">
           <Row>
             <Col>
               <Marquee title={marqueeTitle} subTitle={marqueeSubtitle} />
