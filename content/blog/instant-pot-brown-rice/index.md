@@ -4,8 +4,8 @@ date: "2015-05-28T22:40:32.169Z"
 description: Cooking rice in the Instant Pot shouldn't be a guessing game! Use our recipe to get perfect long-grain brown rice every time.
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-brown-rice-@2x.jpg
-prep: "20 min."
-cook: "20 min."
+prep: "5 min."
+cook: "30 min."
 servings: "10"
 ingredients:
 - ingredient: Long Grain Brown Rice
