@@ -9,7 +9,7 @@ const TagPageTemplate = ({ data, pageContext, location }) => {
 //class TagPageTemplate extends React.Component {
 
 
-    const { tag, totalCount } = pageContext
+    const { tag } = pageContext
 
 
     return (
@@ -24,7 +24,7 @@ const TagPageTemplate = ({ data, pageContext, location }) => {
           <Row className="hp-recipes">
 
             <Col xs="12" className="mb-4">
-              <h1>{tag} ({totalCount})</h1>
+              <h1>{tag}</h1>
             </Col>
 
             {data.allMarkdownRemark.edges.map(({node}) => (

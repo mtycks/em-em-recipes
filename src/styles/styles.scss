@@ -1,11 +1,15 @@
 body{
-    font-family:"Montserrat", san-serif !important;
+    font-family:"Museo-500", serif !important;
 }
 
 a,
 a:link,
 a:visited{
     color:$orange;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-family:'Museo-700';
 }
 
 #main_nav .navbar{
@@ -314,7 +318,14 @@ svg {
     transition:0.1s ease-in-out;
     transition-property:color, background-color;
     font-size:1rem;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Museo-500', sans-serif;
+}
+
+@media(min-width:768px){
+    #main_nav .navbar-nav a:link,
+    #main_nav .navbar-nav a:visited{
+        padding-bottom:.25rem;
+    }
 }
 
 button.btn,
