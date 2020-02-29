@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import { Row, Col } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import RecipeCard from '../components/recipe-card'
+import MyForm from '../components/contactForm'
 
 class ContactPage extends React.Component {
   render() {
@@ -17,34 +18,38 @@ class ContactPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="View all Em Em Recipes" />
+        <SEO title="Contact Us" />
 
         <div className="container">
 
-          <Row>
-            <Col lg="3" className="order-lg-first order-last">
-              <h3>Recipes</h3>
-              <ul className="recipe-tags list-unstyled row">
-                {tags.map(({ tag, totalCount }) => {
-                  return (
-                    <li key={tag.tag} className="mb-0 pb-2 pt-2 col-4 col-lg-12">
-                      {tag} ({totalCount})
-                    </li>
-                  )
-                })}
-              </ul>
+          <Row className="recipe-detail-row mb-5 mt-5">
+            <Col md="6">
+              <h1>Want to send us a note?</h1>
+              <p>Use this form to let us know how we're doing or if you just want to tell us how awesome (or terribly bad) one of our recipes was.</p>
+              <p>Got a recipe you want us to try? Send it!</p>
             </Col>
-            <Col md="12" lg="9" className="hp-recipes">
+            <Col md="12" md="6" className="hp-recipes">
               <Row>
-              {posts.map(({ node }) => {
-                return (
-                  <Col xl="4" xs="6">
-                    <RecipeCard recipe={node} />
-                  </Col>
-                )
-              })}
+                <Col>
+                  <MyForm />
+                </Col>
               </Row>
             </Col>
+
+            <Col className="mt-5">
+              <p className="text-center">While you're here, maybe you want to check out one of these recipes:</p>
+
+              <Row className="hp-recipes">
+              {posts.map(({ node }) => {
+                  return (
+                    <Col md="4">
+                      <RecipeCard recipe={node} />
+                    </Col>
+                  )
+                })}
+                </Row>
+              </Col>
+
           </Row>
 
         </div>
@@ -62,7 +67,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3 
+    ){
       edges {
         node {
           excerpt

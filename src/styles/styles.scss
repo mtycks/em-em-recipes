@@ -322,6 +322,16 @@ svg {
     font-family:'Museo-500', sans-serif;
 }
 
+.more-recipes-soon{
+    background-color:#EFEFEF;
+    border-radius:20px;
+}
+
+.more-recipes-soon h3{
+    color:rgba(0,0,0,.75);
+    margin:0;
+}
+
 @media(min-width:768px){
     #main_nav .navbar-nav a:link,
     #main_nav .navbar-nav a:visited{
@@ -335,8 +345,8 @@ a.btn:link,
 a.btn:visited{
     border-radius:500px;
     color:#FFFFFF;
-    font-size:.8rem;
-    font-weight:600;
+    font-size:1rem;
+    font-family:'Museo-700';
     padding-left:2rem;
     padding-right:2rem;
 }

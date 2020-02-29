@@ -20,7 +20,7 @@ class AllRecipes extends React.Component {
         <div className="container">
 
           <Row>
-            <Col lg="3" className="order-lg-first order-last">
+            <Col lg="3">
               <h3>Recipes</h3>
               <ul className="recipe-tags list-unstyled row">
               {tags.map(({ tag, totalCount }) => {
@@ -43,6 +43,13 @@ class AllRecipes extends React.Component {
                   </Col>
                 )
               })}
+                <Col>
+                  <div className="more-recipes-soon p-3">
+
+                    <h3 className="text-center">Thanks for visiting! We will be adding more recipes soon.</h3>
+
+                  </div>
+                </Col>
               </Row>
             </Col>
           </Row>
