@@ -8,62 +8,60 @@ prep: "5 min."
 cook: "-- min."
 servings: "4"
 ingredients:
-- ingredient: Yellow Popcorn Kernels
-  amount: 1/2 Cup
-  link: "https://www.amazon.com/Orville-Redenbachers-Original-Gourmet-Popcorn/dp/B000RPYX4W/"
-- ingredient: Flavacol
-  amount: 1/4 to 1/2 teaspoons
-  link: "https://www.amazon.com/Gold-Medal-Prod-Flavacol-Seasoning/dp/B004W8LT10"
-- ingredient: Coconut Oil
+- ingredient: Savoy Coconut Cream
+  amount: 1 can
+  link: "https://amzn.to/38d3PZE"
+- ingredient: Powdered Sugar
   amount: 3 tablespoons
-  link: "https://www.amazon.com/Viva-Naturals-Organic-Virgin-Coconut/dp/B00DS842HS/"
+  link: "https://amzn.to/3860CLy"
+- ingredient: Sea Salt
+  amount: 1/3 teaspoons
+  link: "https://amzn.to/389Smu5"
 tools:
-- name: Large Heavy Pot with Lid
-  link: "https://matthewmesa.com"
-- name: Measuring Cups (1/2 cup)
-- name: Measuring Sppons (1/4 tsp., 1/2 tsp., 1 tbsp.)
+- name: Hand Whisk/Mixer
+  link: "https://amzn.to/384D35S"
+- name: Measuring Spoons
+  link: "https://amzn.to/2uKwQyo"
 tags:
 - Beverage
 - Coffee
 - Dessert
 - Dairy-free
+- Vegan
 steps:
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
+- "Before you begin, place the can of coconut cream in the refrigerator for 3-5 hours to separate the water and the fat."
+- "Take the can out of the refrigerator, making sure to keep the can level as to not mix the contents."
+- "Open the can and scoop out the top part of the cream and add to a small mixing bowl. Leave the clear liquid in the can."
+- "With a hand whisk or hand mixer, whip the cream until small peaks form."
+- "Add sugar and salt to taste."
+- "Pour your desired amount over coldbrew coffee and give it a good mix."
+- "Enjoy!"
 ---
 
 #### Step 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+
+Before you begin, place the can of coconut cream in the refrigerator for 3-5 hours to separate the water and the fat.
 
 #### Step 2
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Take the can out of the refrigerator, making sure to keep the can level as to not mix the contents.
 
 #### Step 3
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Open the can and scoop out the top part of the cream and add to a small mixing bowl. Leave the clear liquid in the can.
 
 #### Step 4
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+With a hand whisk or hand mixer, whip the cream until small peaks form.
 
 #### Step 5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Add sugar and salt to taste.
 
 #### Step 6
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Pour your desired amount over coldbrew coffee and give it a good mix.
 
-#### Step 7
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
-
-#### Step 8
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
-
-####Last Step!
+#### Last Step!
 
 Enjoy!
