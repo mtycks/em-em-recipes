@@ -8,23 +8,17 @@ prep: "20 min."
 cook: "20 min."
 servings: "10"
 ingredients:
-- ingredient: Yellow Popcorn Kernels
+- ingredient: Lorem ipsum dolor sit amet
   amount: 1/2 Cup
-  link: "https://www.amazon.com/Orville-Redenbachers-Original-Gourmet-Popcorn/dp/B000RPYX4W/"
-- ingredient: Flavacol
-  amount: 1/4 to 1/2 teaspoons
-  link: "https://www.amazon.com/Gold-Medal-Prod-Flavacol-Seasoning/dp/B004W8LT10"
-- ingredient: Coconut Oil
-  amount: 3 tablespoons
-  link: "https://www.amazon.com/Viva-Naturals-Organic-Virgin-Coconut/dp/B00DS842HS/"
 tools:
-- name: Large Heavy Pot with Lid
-  link: "https://matthewmesa.com"
-- name: Measuring Cups (1/2 cup)
-- name: Measuring Sppons (1/4 tsp., 1/2 tsp., 1 tbsp.)
+- name: Measuring Cups
+- name: Measuring Spoons
 tags:
-- Snack
-- Dessert
+- Lunch
+- Dinner
+- Gluten-free
+- Dairy-free
+- Filipino
 - Instant Pot
 steps:
 - "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
