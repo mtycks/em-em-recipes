@@ -4,9 +4,9 @@ date: "2020-02-21T22:12:03.284Z"
 description: "Super simple taco seasoning that tastes great with ground beef or ground turkey. Tastes the best on Tuesdays."
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-taco-seasoning-@2x.jpg
-prep: "1 min."
-cook: "10 min."
-servings: "5"
+prep: "2 min."
+cook: "15 min."
+servings: "4"
 ingredients:
 - ingredient: Ground Beef
   amount: 1 pound

@@ -4,9 +4,9 @@ date: "2020-02-21T22:12:03.284Z"
 description: "For those days when you just need something quick (and freaking delicious) to feed the entire family."
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-hamburger-helper-@2x.jpg
-prep: "1 min."
-cook: "10 min."
-servings: "5"
+prep: "2 min."
+cook: "25 min."
+servings: "6"
 ingredients:
 - ingredient: Ground Beef
   amount: 1 pound

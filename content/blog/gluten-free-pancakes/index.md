@@ -1,69 +1,78 @@
 ---
 title: Gluten-free Banana Pancakes
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Maybe we could sleep in, make you (gluten-free) banana pancakes, pretend like it's the weekend now.
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-pancakes-@2x.jpg
-prep: "20 min."
-cook: "20 min."
-servings: "10"
+prep: "5 min."
+cook: "15 min."
+servings: "6"
 ingredients:
-- ingredient: Yellow Popcorn Kernels
-  amount: 1/2 Cup
-  link: "https://www.amazon.com/Orville-Redenbachers-Original-Gourmet-Popcorn/dp/B000RPYX4W/"
-- ingredient: Flavacol
-  amount: 1/4 to 1/2 teaspoons
-  link: "https://www.amazon.com/Gold-Medal-Prod-Flavacol-Seasoning/dp/B004W8LT10"
+- ingredient: Unsweetened Coconut Milk
+  amount: 1 Cup
+- ingredient: Apple Cider Vinegar
+  amount: 1 tablespoon
+- ingredient: All-purpose Gluten-free Flour 
+  amount: 1 cup
+- ingredient: Granulated Sugar
+  amount: 1 tablespoon
+- ingredient: Baking Powder
+  amount: 2 teaspoons
+- ingredient: Salt
+  amount: 1 teaspoon
 - ingredient: Coconut Oil
-  amount: 3 tablespoons
-  link: "https://www.amazon.com/Viva-Naturals-Organic-Virgin-Coconut/dp/B00DS842HS/"
+  amount: 1 tablespoon
+- ingredient: Large Ripe Banana
+  amount: "1"
 tools:
-- name: Large Heavy Pot with Lid
-  link: "https://matthewmesa.com"
-- name: Measuring Cups (1/2 cup)
-- name: Measuring Sppons (1/4 tsp., 1/2 tsp., 1 tbsp.)
+- name: Non-stick Pan
+- name: Measuring Cups
+- name: Measuring Sppons
 tags:
 - Breakfast
 - Gluten-free
 - Vegan
 - Dessert
+- Dairy-free
 steps:
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
+- "Add dry ingredients in a bowl and mix until combined."
+- "Melt coconut oil in microwave for 20 seconds."
+- "Add coconut milk, apple cider vinegar, **melted** coconut oil and diced banana into to dry mixture. Mash banana while mixing together until smooth."
+- "Coat a non-stick pan with a little bit of coconut oil over medium-high heat."
+- "Once hot, pour 1/4 - 1/3 cup of pancake mixture onto pan."
+- "When you start to see bubbles forming towards the middle of the pancake mixture (about 2 minutes), flip pancake and continue to cook for 30-60 seconds."
+- "Serve with maple syrup."
+- "Enjoy!"
 ---
 
 #### Step 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+
+Add dry ingredients in a bowl and mix until combined.
 
 #### Step 2
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Melt coconut oil in microwave for 20 seconds.
 
 #### Step 3
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Add coconut milk, apple cider vinegar, **melted** coconut oil and diced banana into to dry mixture. Mash banana while mixing together until smooth.
 
 #### Step 4
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Coat a non-stick pan with a little bit of coconut oil over medium-high heat. 
 
 #### Step 5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Once hot, pour 1/4 - 1/3 cup of pancake mixture onto pan.
 
 #### Step 6
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+When you start to see bubbles forming towards the middle of the pancake mixture (about 2 minutes), flip pancake and continue to cook for 30-60 seconds.
 
 #### Step 7
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Serve with maple syrup.
 
-#### Step 8
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
-
-####Last Step!
+#### Last Step!
 
 Enjoy!
