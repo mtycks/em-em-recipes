@@ -33,14 +33,24 @@ class RecipePageTemplate extends React.Component {
         />
         <div className="container">
           <Row className="recipe-detail-row">
-            <Col lg="6" md="12" className="mb-4">
+            <Col md="6" sm="12" className="mb-4">
               <Img className="recipe-full-img" alt={post.frontmatter.title} fluid={post.frontmatter.full_img.childImageSharp.fluid} />
             </Col>
-            <Col lg="6" md="12">
+            <Col md="6" className=" d-none d-md-block d-lg-none">
+
               <div className="recipe-details p-2">
 
                 <h1>{post.frontmatter.title}</h1>
                 <p>{post.frontmatter.description}</p>
+
+              </div>
+
+            </Col>
+            <Col lg="6" md="12">
+              <div className="recipe-details p-2">
+
+                <h1 className="d-block d-md-none d-lg-block">{post.frontmatter.title}</h1>
+                <p className="d-block d-md-none d-lg-block">{post.frontmatter.description}</p>
 
                 <div className="recipe-detail-columns">
                   <div className="recipe-detail">

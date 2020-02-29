@@ -1,10 +1,10 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col } from 'reactstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import RecipeCard from '../components/recipe-card'
+import { slugify } from '../utils/utilityFunctions'
 
 class AllRecipes extends React.Component {
   render() {
@@ -12,8 +12,6 @@ class AllRecipes extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
     const tags = data.tags.group
-
-    console.log(tags)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -25,10 +23,12 @@ class AllRecipes extends React.Component {
             <Col lg="3" className="order-lg-first order-last">
               <h3>Recipes</h3>
               <ul className="recipe-tags list-unstyled row">
-                {tags.map(({ tag, totalCount }) => {
+              {tags.map(({ tag, totalCount }) => {
                   return (
                     <li key={tag.tag} className="mb-0 pb-2 pt-2 col-4 col-lg-12">
-                      {tag} ({totalCount})
+                      <Link to={`/tags/${slugify(tag)}`} className="portfolio-item">
+                        {tag} <span className="d-none d-sm-inline-block">({totalCount})</span>
+                      </Link>
                     </li>
                   )
                 })}
@@ -38,7 +38,7 @@ class AllRecipes extends React.Component {
               <Row>
               {posts.map(({ node }) => {
                 return (
-                  <Col xl="4" xs="6">
+                  <Col xl="4" sm="6" xs="12">
                     <RecipeCard recipe={node} />
                   </Col>
                 )

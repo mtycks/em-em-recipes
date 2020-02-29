@@ -309,7 +309,8 @@ svg {
     content: '———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————';
     white-space: nowrap;
     color: #eaecf0;
-    font-weight: 400;
+    font-weight: 100;
+    font-family: 'Helvetica', sans-serif;
 }
 
 #main_nav .navbar-nav a:link,
@@ -395,6 +396,7 @@ button.btn.btn-primary{
     .container.marquee-container{
         max-width:100%;
         padding:0;
+        overflow:hidden;
     }
 
     .marquee-holder{
@@ -446,5 +448,8 @@ button.btn.btn-primary{
         margin-bottom:1rem;
         padding-bottom:1rem;
     }
-
+    
+    .recipe-detail-row h1{
+        font-size:1.75rem;
+    }
 }
