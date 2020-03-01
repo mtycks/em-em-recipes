@@ -24,6 +24,7 @@ class AboutPage extends React.Component {
             <Col md="6">
               <h1>We just wanted a recipe website that cut to the chase.</h1>
               <p>We also had a hard time remembering our own recipes. So, why not make an awesome website?</p>
+              <p>We're just getting started, so be sure to check back regularly!</p>
               <p>If you have any suggestions for us, shoot us a line!</p>
               <p><a class="btn btn-primary push-right" href="/contact">Contact Us</a></p>
             </Col>

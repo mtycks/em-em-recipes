@@ -27,6 +27,8 @@ tools:
 tags:
 - Snack
 - Appetizer
+- Dairy-free
+- Gluten-free
 steps:
   - "Add three (3) tablespoons of unrefined coconut oil to a large heavy pot."
   - "Sprinkle 1/4 to 1/2 teaspoons of Flavacol **on top** of the coconut oil"

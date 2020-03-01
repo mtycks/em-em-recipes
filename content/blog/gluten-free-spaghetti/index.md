@@ -1,18 +1,23 @@
 ---
-title: Gluten-free Fusilli and Spaghetti Sauce with Meat
+title: Gluten-free Spaghetti with Meat
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: We've been so pleasantly surprised by the taste of Simply Balanced gluten-free pasta! They really nailed the flavor and we're glad we can make such a simple dinner while sticking to a gluten-free diet.
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-spaghetti-@2x.jpg
-prep: "20 min."
+prep: "2 min."
 cook: "20 min."
-servings: "10"
+servings: "6"
 ingredients:
-- ingredient: Lorem ipsum dolor sit amet
-  amount: 1/2 Cup
+- ingredient: Simply Balanced Gluten-free Pasta
+  amount: 12 oz.
+  link: "https://amzn.to/32G3M7z"
+- ingredient: Ground Beef or Ground Turkey
+  amount: 1 pound
 tools:
 - name: Measuring Cups
+  link: "https://amzn.to/2HQxsFq"
 - name: Measuring Spoons
+  link: "https://amzn.to/2VilpZw"
 tags:
 - Lunch
 - Dinner

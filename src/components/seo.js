@@ -118,6 +118,10 @@ function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe })
           content: `website`,
         },
         {
+          property: `fb:app_id`,
+          content: `2959110510807273`
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
