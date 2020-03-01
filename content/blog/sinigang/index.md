@@ -28,8 +28,9 @@ ingredients:
   amount: 1/4 lb.
 tools:
 - name: Instant Pot
+  link: "https://amzn.to/32mE48g"
 - name: Measuring Cups
-- name: Measuring Spoons
+  link: "https://amzn.to/2Tp3Qoj"
 tags:
 - Instant Pot
 - Lunch

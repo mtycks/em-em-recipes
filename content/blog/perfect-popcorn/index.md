@@ -22,7 +22,7 @@ tools:
   link: "https://amzn.to/38TRw5Q"
 - name: Measuring Cups (1/2 cup)
   link: "https://amzn.to/2HQxsFq"
-- name: Measuring Sppons (1/4 tsp., 1/2 tsp., 1 tbsp.)
+- name: Measuring Spoons (1/4 tsp., 1/2 tsp., 1 tbsp.)
   link: "https://amzn.to/2VilpZw"
 tags:
 - Snack

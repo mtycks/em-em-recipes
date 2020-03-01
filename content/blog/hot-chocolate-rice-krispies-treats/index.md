@@ -1,58 +1,66 @@
 ---
 title: Hot Chocolate Rice Krispies Treats
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: A little twist on this sweet dessert. Take that hot chocolate powder out of the pantry and into these Rice Krispies Treats.
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-rice-krispie-@2x.jpg
-prep: "20 min."
-cook: "20 min."
-servings: "10"
+prep: "2 min."
+cook: "10 min."
+servings: "12"
 ingredients:
-- ingredient: Lorem ipsum dolor sit amet
-  amount: 1/2 Cup
+- ingredient: Rice Krispies
+  amount: 6 cups
+  link: "https://amzn.to/38dd1gS"
+- ingredient: Powdered Hot Chocolate
+  amount: 1/4 cup
+  link: "https://amzn.to/32Es69X"
+- ingredient: Marshmallows
+  amount: 10 oz. bag
+  link: "https://amzn.to/2VFFJ7c"
+- ingredient: Butter
+  amount: 1/4 cup 
 tools:
+- name: Large Sauce Pot
+  link: "https://amzn.to/2wR9BDl"
 - name: Measuring Cups
-- name: Measuring Spoons
+  link: "https://amzn.to/2Tp3Qoj"
 tags:
 - Snack
 - Dessert
 steps:
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
+- "Coat a 3 quart (9\" x 13\") baking dish with butter and set aside."
+- "Melt 1/4 cup of butter in a large pot over low heat."
+- "When the butter is melted, add half of the 10 oz. bag of marshmallows add hot chocolate powder to the pot. Stir until fully mixed and melted."
+- "Remove pot from heat, add six (6) cups of Rice Krispies and stir until fully mixed."
+- "Pour onto buttered baking dish (from Step 1). Use a spoon and/or parchment paper to lightly press mixture to spread evenly in dish. Add extra unmelted marshmallows on top, if desired."
+- "Let cool for 15-30 minutes before cutting into rectangles."
+- "Enjoy!"
 ---
 
 #### Step 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+
+Coat a [3 quart (9" x 13") baking dish](https://amzn.to/2VFFVTY) with butter and set aside.
 
 #### Step 2
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Melt 1/4 cup of butter in a large pot over low heat.
 
 #### Step 3
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+When the butter is melted, add half of the 10 oz. bag of marshmallows add hot chocolate powder to the pot. Stir until fully mixed and melted.
 
 #### Step 4
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Remove pot from heat, add six (6) cups of Rice Krispies and stir until fully mixed.
 
 #### Step 5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Pour onto buttered baking dish (from Step 1). Use a spoon and/or parchment paper to lightly press mixture to spread evenly in dish. Add extra unmelted marshmallows on top, if desired.
 
 #### Step 6
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Let cool for 15-30 minutes before cutting into rectangles.
 
-#### Step 7
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
-
-#### Step 8
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
-
-####Last Step!
+#### Last Step!
 
 Enjoy!

@@ -4,15 +4,38 @@ date: "2015-05-28T22:40:32.169Z"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-adobo-@2x.jpg
-prep: "20 min."
-cook: "20 min."
-servings: "10"
+prep: "3 min."
+cook: "30 min."
+servings: "6"
 ingredients:
-- ingredient: Lorem ipsum dolor sit amet
-  amount: 1/2 Cup
+- ingredient: Chicken Thighs
+  amount: 2 lbs
+- ingredient: Apple Cider Vinegar
+  amount: 1/3 cup
+- ingredient: Gluten-free Soy Sauce
+  amount: 2/3 cup
+  link: "https://amzn.to/2VykzIj"
+- ingredient: Garlic
+  amount: 1 head
+- ingredient: Yellow Onion
+  amount: 1 whole
+- ingredient: Bay Leaves
+  amount: 4 whole
+- ingredient: Organic Olive Oil
+  amount: 2 tablespoons
+- ingredient: Organic  Chicken Broth
+  amount: 1/2 cup
+- ingredient: Sea Salt
+  amount: 1 teaspoon
+- ingredient: Ground Black Pepper
+  amount: 1-2 teaspoons
 tools:
+- name: Instant Pot
+  link: "https://amzn.to/32mE48g"
 - name: Measuring Cups
+  link: "https://amzn.to/2Tp3Qoj"
 - name: Measuring Spoons
+  link: "https://amzn.to/2VilpZw"
 tags:
 - Lunch
 - Dinner
@@ -21,42 +44,39 @@ tags:
 - Filipino
 - Instant Pot
 steps:
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor."
+- "Slice onions, mine garlic and add to Instant Pot with two tablespoons of olive oil. Set Instant Pot to **Sauté** and cook for 2-3 minutes."
+- "Push **Cancel** button to turn off heat. Add in apple cider vinegar, gluten-free soy sauce, bay leaves, sea salt, ground pepper and chicken broth to Instant Pot and mix."
+- "Submerge chicken in the mixture, cover Instant Pot with lid and make sure the pressure valve is sealed."
+- "Press the **Poultry** button and set timer to 20 minutes."
+- "After timer goes off, quick release by opening the valve carefully. Open the Instant Pot, remove the chicken and place in a large serving bowl."
+- "Next, we'll reduce the sauce by switching the Instant Pot to **Sauté** and letting it simmer for a few minutes. You can gently stir throughout. Once the sauce is to your liking, turn the Instant Pot off and pour sauce over the chicken."
+- "Enjoy!"
 ---
 
 #### Step 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+
+Slice onions, mine garlic and add to Instant Pot with two tablespoons of olive oil. Set Instant Pot to **Sauté** and cook for 2-3 minutes.
 
 #### Step 2
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Push **Cancel** button to turn off heat. Add in apple cider vinegar, gluten-free soy sauce, bay leaves, sea salt, ground pepper and chicken broth to Instant Pot and mix.
 
 #### Step 3
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Submerge chicken in the mixture, cover Instant Pot with lid and make sure the pressure valve is sealed.
 
 #### Step 4
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Press the **Poultry** button and set timer to 20 minutes.
 
 #### Step 5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+After timer goes off, quick release by opening the valve carefully. Open the Instant Pot, remove the chicken and place in a large serving bowl.
 
 #### Step 6
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
+Next, we'll reduce the sauce by switching the Instant Pot to **Sauté** and letting it simmer for a few minutes. You can gently stir throughout. Once the sauce is to your liking, turn the Instant Pot off and pour sauce over the chicken.
 
-#### Step 7
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
-
-#### Step 8
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent. Lectus magna fringilla urna porttitor rhoncus dolor.
-
-####Last Step!
+#### Last Step!
 
 Enjoy!
