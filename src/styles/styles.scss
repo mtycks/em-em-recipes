@@ -325,12 +325,37 @@ svg {
 .more-recipes-soon{
     background-color:#EFEFEF;
     border-radius:20px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .more-recipes-soon h3{
     color:rgba(0,0,0,.75);
     margin:0;
 }
+
+.tag-item{
+    background-color:$orange;
+    border-radius:20px;
+    color:#FFFFFF !important;
+    display:flex;
+    flex-direction:column;
+    font-family:'Museo-700';
+    margin-bottom:2rem;
+    min-height:100px;
+    text-align:center;
+    justify-content:center;
+}
+    .tag-item:hover{
+        background-color:#ce4332;
+        text-decoration:none;
+    }
+
+    .tag-item small{
+        font-family:'Museo-500';
+    }
 
 @media(min-width:768px){
     #main_nav .navbar-nav a:link,
