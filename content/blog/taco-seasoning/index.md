@@ -41,7 +41,7 @@ tools:
   link: "https://amzn.to/38TRw5Q"
 - name: Measuring Cups
   link: "https://amzn.to/2HQxsFq"
-- name: Measuring Sppons
+- name: Measuring Spoons
   link: "https://amzn.to/2VilpZw"
 tags:
 - Lunch

@@ -26,8 +26,11 @@ ingredients:
   amount: "1"
 tools:
 - name: Non-stick Pan
+  link: "https://amzn.to/39d3J5D"
 - name: Measuring Cups
-- name: Measuring Sppons
+  link: "https://amzn.to/2HQxsFq"
+- name: Measuring Spoons
+  link: "https://amzn.to/2VilpZw"
 tags:
 - Breakfast
 - Gluten-free

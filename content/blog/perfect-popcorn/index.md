@@ -20,9 +20,9 @@ ingredients:
 tools:
 - name: Large Heavy Pot with Lid
   link: "https://amzn.to/38TRw5Q"
-- name: Measuring Cups (1/2 cup)
+- name: Measuring Cups
   link: "https://amzn.to/2HQxsFq"
-- name: Measuring Spoons (1/4 tsp., 1/2 tsp., 1 tbsp.)
+- name: Measuring Spoons
   link: "https://amzn.to/2VilpZw"
 tags:
 - Snack
