@@ -32,7 +32,7 @@ const Navigation = (props) => {
   return (
     <div id="main_nav" className="container">
       <Navbar color="white" light expand="md">
-        <NavbarBrand href="/"><Image fluid={data.navLogo.childImageSharp.fluid} style={{width: "30px", marginRight: "10px", display: "inline-block"}} /> Em Em Recipes</NavbarBrand>
+        <NavbarBrand href="/"><Image fluid={data.navLogo.childImageSharp.fluid} imgStyle={{objectFit: "contain",objectPosition: "50% 50%",}} style={{width: "30px", marginRight: "10px", display: "inline-block"}} /> Em Em Recipes</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
