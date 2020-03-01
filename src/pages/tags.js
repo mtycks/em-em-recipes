@@ -23,10 +23,10 @@ class TagsPage extends React.Component {
 
           {tags.map(({ tag, totalCount }) => {
               return (
-                <Col key={tag.tag} sm="4">
+                <Col key={tag.tag} md="4" sm="6">
                   <div className="tag-holder">
                     <Link to={`/tags/${slugify(tag)}`} className="portfolio-item tag-item p-3">
-                      {tag} <small className="d-none d-sm-inline-block">{totalCount} recipe{totalCount > 1 ? `s` : ``}</small>
+                      {tag} <small>{totalCount} recipe{totalCount > 1 ? `s` : ``}</small>
                     </Link>
                   </div>
                 </Col>

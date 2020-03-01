@@ -40,7 +40,10 @@ const Navigation = (props) => {
               <NavLink href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/recipes">All Recipes</NavLink>
+              <NavLink href="/recipes">Recipes</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/tags">Tags</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/about">About Us</NavLink>
