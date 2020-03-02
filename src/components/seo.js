@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import siteogimage from "../../content/assets/header-fusilli.jpg"
+import siteogimage from "../../content/assets/og-image-16x9.jpg"
 
 
 function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe }) {

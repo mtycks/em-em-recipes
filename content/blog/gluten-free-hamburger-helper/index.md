@@ -13,7 +13,7 @@ ingredients:
 - ingredient: Simply Balanced Gluten-free Pasta
   amount: 2 1/2 cups
 - ingredient: Olive Oil
-  amount: 1 teaspoon
+  amount: 1-2 tablespoons
 - ingredient: Yellow Onion
   amount: 1 small
 - ingredient: Paprika
@@ -51,43 +51,48 @@ tags:
 - American
 - Beef
 steps:
-  - "Add 1-2 tablespoons of olive oil in large skillet or pot with lid over medium heat. Add diced onions. Let cook for 1-2 minutes."
-  - "Add ground beef. Cook until browned (does not need to be fully cooked through)"
-  - "Mix in all the dried spices"
-  - "Add all the liquid ingredients"
-  - "Stir in noodles"
-  - "Cover and let simmer for 15 minutes"
-  - "Take off heat and slightly uncover the pot to vent. Let sit for five (5) minutes to allow noodles to absorb the remaining liquids."
-  - "Enjoy!"
+- "Combine all the dry spices in a small bowl."
+- "Add 1-2 tablespoons of olive oil in large skillet or pot with lid over medium heat. Add diced onions. Let cook for 1-2 minutes."
+- "Add ground beef. Cook until slightly brown (does not need to be fully cooked at this point)"
+- "Mix in all the dried spices"
+- "Add pasta to the pot"
+- "Pour in all liquid ingredients. It's ok if the pasta in not completely submerged." 
+- "Cover and let simmer for 15 minutes. Don't peek! Trust that everything will cook during this step."
+- "Take off heat and slightly uncover the pot to vent. Let sit for three (3) to five (5) minutes to allow pasta to absorb the remaining liquids."
+- "Enjoy!"
 ---
 
 #### Step 1
 
-Add 1-2 tablespoons of olive oil in large skillet or pot with lid over medium heat. Add diced onions. Let cook for 1-2 minutes.
+Combine all the dry spices in a small bowl.
 
 #### Step 2
 
-Add ground beef. Cook until browned (does not need to be fully cooked through)
-
-#### Step 3
-
-Mix in all the dried spices
+Add 1-2 tablespoons of olive oil in large skillet or pot with lid over medium heat. Add diced onions. Let cook for 1-2 minutes.
 
 #### Step 4
 
-Add all the liquid ingredients
+Add ground beef. Cook until slightly brown (does not need to be fully cooked at this point)
+
+#### Step 4
+
+Mix in all the dried spices
 
 #### Step 5
 
-Stir in noodles
+Add pasta to the pot
 
 #### Step 6
 
-Cover and let simmer for 15 minutes
+Pour in all liquid ingredients. It's ok if the pasta in not completely submerged. 
 
 #### Step 7
 
-Take off heat and slightly uncover the pot to vent. Let sit for three (3) to five (5) minutes to allow noodles to absorb the remaining liquids.
+Cover and let simmer for 15 minutes. Don't peek! Trust that everything will cook during this step.
+
+#### Step 8
+
+Take off heat and slightly uncover the pot to vent. Let sit for three (3) to five (5) minutes to allow pasta to absorb the remaining liquids.
 
 #### Last Step!
 
