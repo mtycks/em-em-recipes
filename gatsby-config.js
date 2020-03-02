@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Em Em Recipes`,
     author: `Em Em Digital`,
-    description: `A recipe website that gets straight to the point.`,
+    description: `Because you don't need to read a story; you just need the damn recipe.`,
     siteUrl: `https://ememrecipes.com`,
     images: `content/assets/emem-recipes-icon.png`,
     social: {
@@ -60,7 +60,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Em Em Recipes`,
-        short_name: `GatsbyJS`,
+        short_name: `Em Em Recipes`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#Eb4A36`,

@@ -1,5 +1,6 @@
 ---
 title: Perfect Popcorn
+seoTitle: How to make movie theater popcorn
 date: "2020-02-21T22:12:03.284Z"
 description: "How to make popcorn that tastes like Main Street popcorn from Disneyland or the best movie theater popcorn you've ever had."
 thumbnail: ./thumbnail.jpg
