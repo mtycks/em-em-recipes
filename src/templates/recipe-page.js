@@ -122,7 +122,7 @@ class RecipePageTemplate extends React.Component {
                             </li>
                         ))}
                     </ul>
-                    <div className="affiliate-disclaimer">
+                    <div className="affiliate-disclaimer mb-5">
                       <small><em>Disclaimer: The links above may contain affiliate links which earn us a commission to help us run and maintain this website.</em></small>
                     </div>
                   </Col>
