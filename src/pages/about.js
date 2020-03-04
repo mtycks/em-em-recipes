@@ -28,7 +28,7 @@ class AboutPage extends React.Component {
               <p>If you have any suggestions for us, shoot us a line!</p>
               <p><a class="btn btn-primary push-right" href="/contact">Contact Us</a></p>
             </Col>
-            <Col md="12" md="6" className="hp-recipes order-first order-md-last">
+            <Col sm="12" md="6" className="hp-recipes order-first order-md-last">
               <Row>
                 <Col>
                   <Image className="recipe-full-img mb-4" fluid={data.aboutImage.childImageSharp.fluid} />

@@ -4,7 +4,6 @@ import { Row, Col } from 'reactstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RecipeCard from '../components/recipe-card'
-import { slugify } from '../utils/utilityFunctions'
 
 class NotFoundPage extends React.Component {
   render() {

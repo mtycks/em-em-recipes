@@ -28,7 +28,7 @@ class ContactPage extends React.Component {
               <p>Use this form to let us know how we're doing or if you just want to tell us how awesome (or terribly bad) one of our recipes was.</p>
               <p>Got a recipe you want us to try? Send it!</p>
             </Col>
-            <Col md="12" md="6" className="hp-recipes">
+            <Col sm="12" md="6" className="hp-recipes">
               <Row>
                 <Col>
                   <MyForm />
