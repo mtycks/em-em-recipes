@@ -11,6 +11,7 @@ ingredients:
 - ingredient: Savoy Coconut Cream
   amount: 1 can
   link: "https://amzn.to/38d3PZE"
+  note: Simply Balanced canned coconut milk works great too
 - ingredient: Powdered Sugar
   amount: 3 tablespoons
   link: "https://amzn.to/3860CLy"

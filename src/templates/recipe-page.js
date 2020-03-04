@@ -108,7 +108,7 @@ class RecipePageTemplate extends React.Component {
                             <li key={ingredient.ingredient}>
                       
                                 {ingredient.amount} {ingredient.link ? <a href={ingredient.link} target="_blank" rel="noopener noreferrer">{ingredient.ingredient} <span className="sr-only">(Opens in new window)</span></a> : ingredient.ingredient}
-
+                                  {ingredient.note ? <small className="d-block"><em>{ingredient.note}</em></small> : ""}
                             </li>
                         ))}
                     </ul>
@@ -194,6 +194,7 @@ export const pageQuery = graphql`
           ingredient
           amount
           link
+          note
         }
         tools{
           name
