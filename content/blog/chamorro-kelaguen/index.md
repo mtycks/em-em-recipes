@@ -6,7 +6,7 @@ thumbnail: ./thumbnail.jpg
 full_img: ./full-img-kelaguen-@2x.jpg
 prep: "5 min."
 cook: "20 min."
-servings: "10"
+servings: "8"
 ingredients:
 - ingredient: Chicken
   amount: Half
