@@ -43,6 +43,7 @@ tags:
 - Dairy-free
 - Filipino
 - Instant Pot
+- Chicken
 steps:
 - "Slice onions, mine garlic and add to Instant Pot with two tablespoons of olive oil. Set Instant Pot to **Sauté** and cook for 2-3 minutes."
 - "Push **Cancel** button to turn off heat. Add in apple cider vinegar, gluten-free soy sauce, bay leaves, sea salt, ground pepper and chicken broth to Instant Pot and mix."

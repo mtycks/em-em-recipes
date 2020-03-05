@@ -32,21 +32,21 @@ const Navigation = (props) => {
   return (
     <div id="main_nav" className="container">
       <Navbar color="white" light expand="md">
-        <NavbarBrand href="/"><Image fluid={data.navLogo.childImageSharp.fluid} imgStyle={{objectFit: "contain",objectPosition: "50% 50%",}} style={{width: "30px", marginRight: "10px", display: "inline-block"}} /> Em Em Recipes</NavbarBrand>
+        <Link to="/" className="navbar-brand"><Image fluid={data.navLogo.childImageSharp.fluid} imgStyle={{objectFit: "contain",objectPosition: "50% 50%",}} style={{width: "30px", marginRight: "10px", display: "inline-block"}} /> Em Em Recipes</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <Link to="/" className="nav-link">Home</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/recipes">Recipes</NavLink>
+              <Link to="/recipes" className="nav-link">Recipes</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/tags">Tags</NavLink>
+              <Link to="/tags" className="nav-link">Tags</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/about">About Us</NavLink>
+              <Link to="/about" className="nav-link">About Us</Link>
             </NavItem>
           </Nav>
           <Link className="btn btn-primary push-right" to="/contact">Contact Us</Link>

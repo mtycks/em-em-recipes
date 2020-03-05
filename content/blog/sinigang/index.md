@@ -39,6 +39,7 @@ tags:
 - Dairy-free
 - Gluten-free
 - Filipino
+- Pork
 steps:
 - "Cut daikon into 2-3 inch pieces. Cut pork into 3-4 inch pieces if not already cut. Cut tomatoes into fourths. Slice onions to your preference."
 - "Combine tomatoes, onions, daikon, meat and water in the Instant Pot. Push the **Pressure** button (or **Manual** button if you have an older model), set timer to 30 minutes and make sure pressure valve is closed."
