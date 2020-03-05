@@ -31,7 +31,6 @@ ingredients:
   note: No stems
 - ingredient: Fresh Oregano Leaves
   amount: 1/4 cup
-  note: We use store bought already-cut leaves
 - ingredient: Green Onions
   amount: "3"
 - ingredient: Garlic Cloves
