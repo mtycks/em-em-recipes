@@ -18,11 +18,11 @@ ingredients:
   amount: 1 small
 - ingredient: Paprika
   amount: 1 teaspoon
-- ingredient: Parsley
+- ingredient: Dried Parsley
   amount: 1 teaspoon
 - ingredient: Garlic Powder
   amount: 1 teaspoon
-- ingredient: Oregano
+- ingredient: Dried Oregano
   amount: 1 teaspoon
 - ingredient: Sea Salt
   amount: 1 teaspoon
