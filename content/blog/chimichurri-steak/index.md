@@ -26,7 +26,7 @@ ingredients:
 - ingredient: Onion Powder
   amount: 2 teaspoons
   note: For Steak
-- ingredient: Parsley Leaves
+- ingredient: Fresh Parsley Leaves
   amount: 1 cup
   note: No stems
 - ingredient: Fresh Oregano Leaves
