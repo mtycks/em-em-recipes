@@ -69,11 +69,11 @@ Add oil in a heavy pot over medium heat.
 
 #### Step 3
 
-Sauté onions and garlic for 2-3 minutes (until onions are soft). Scrape the bottom of the pot if anything stuck.
+Sauté onions and garlic for 2-3 minutes (until onions are soft).
 
 #### Step 4
 
-Add your chosen broth and the rest of the vegetables to the pot. 
+Add your chosen broth and the rest of the vegetables to the pot. Scrape the bottom of the pot if anything stuck.
 
 #### Step 5
 
