@@ -12,9 +12,6 @@ class ContactPage extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    const tags = data.tags.group
-
-    console.log(tags)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
