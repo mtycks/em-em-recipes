@@ -29,6 +29,8 @@ ingredients:
 - ingredient: Ground Black Pepper
   amount: 1/2 teaspoon
 tools:
+- name: Non-stick Pan
+  link: "https://amzn.to/39d3J5D"
 - name: Measuring Cups
   link: "https://amzn.to/2HQxsFq"
 - name: Measuring Spoons

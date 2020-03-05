@@ -40,7 +40,7 @@ tags:
 steps:
 - "Add dry ingredients in a bowl and mix until combined."
 - "Melt coconut oil in microwave for 20 seconds."
-- "Add coconut milk, apple cider vinegar, **melted** coconut oil and diced banana into to dry mixture. Mash banana while mixing together until smooth."
+- "Add coconut milk, apple cider vinegar, **melted** coconut oil and diced banana into dry mixture. Mash banana while mixing together until smooth."
 - "Coat a non-stick pan with a little bit of coconut oil over medium-high heat."
 - "Once hot, pour 1/4 - 1/3 cup of pancake mixture onto pan."
 - "When you start to see bubbles forming towards the middle of the pancake mixture (about 2 minutes), flip pancake and continue to cook for 30-60 seconds."
@@ -58,7 +58,7 @@ Melt coconut oil in microwave for 20 seconds.
 
 #### Step 3
 
-Add coconut milk, apple cider vinegar, **melted** coconut oil and diced banana into to dry mixture. Mash banana while mixing together until smooth.
+Add coconut milk, apple cider vinegar, **melted** coconut oil and diced banana into dry mixture. Mash banana while mixing together until smooth.
 
 #### Step 4
 

@@ -1,7 +1,7 @@
 ---
 title: Instant Pot Gluten-free Chicken Adobo
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: If you're looking for an Instant Pot gluten-free Filipino Chicken Adobo recipe, this is it!
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-adobo-@2x.jpg
 prep: "3 min."
