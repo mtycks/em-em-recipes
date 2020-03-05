@@ -29,7 +29,7 @@ ingredients:
 - ingredient: Parsley Leaves
   amount: 1 cup
   note: No stems
-- ingredient: Oregano Leaves
+- ingredient: Fresh Oregano Leaves
   amount: 1/4 cup
   note: We use store bought already-cut leaves
 - ingredient: Green Onions
@@ -104,7 +104,7 @@ Remove from oven broiler and let the steak rest on a cutting board for at least 
 
 #### Step 1
 
-Add oregano, red pepper flakes, olive oil, red wine vinegar and lemon juice to the bowl.
+Add parsley, oregano, red pepper flakes, olive oil, red wine vinegar and lemon juice to the bowl.
 
 #### Step 2
 
