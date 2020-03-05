@@ -52,7 +52,7 @@ steps:
 
 #### Step 1
 
-
+Add all dry ingredients to a bowl and mix.
 
 #### Step 2
 
