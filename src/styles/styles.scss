@@ -27,6 +27,10 @@ a:visited{
     text-transform:lowercase;
 }
 
+.bg-orange{
+    background-color:$orange !important;
+}
+
 .marquee-holder{
     border-radius:20px;
     display:inline-block;
@@ -58,10 +62,6 @@ a:visited{
         font-weight:600;
         margin:0 0 1rem;
     }
-
-.hp-recipes{
-
-}
 
     .hp-recipes article{
         display:flex;
@@ -491,4 +491,42 @@ button.btn.btn-primary{
     .recipe-detail-row h1{
         font-size:1.75rem;
     }
+
+    .recipe-tag-list{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+
+    .recipe-tag-list li.list-inline-item:first-child{
+        width:100% !important;
+    }
+
+    .recipe-tag-list li.list-inline-item{
+        margin-bottom:10px;
+        margin-right:0 !important;
+        width:48%;
+    }
+
+    .recipe-tag-list li:first-child small{
+        font-size:100%;
+    }
+
+    .recipe-tag-list li a{
+        display:block;
+        margin-bottom:5px;
+        text-decoration:none;
+    }
+
+        .recipe-tag-list a:hover{
+            opacity:.9;
+        }
+
+    .recipe-tag-list li .badge{
+        display:block;
+        font-size:75% !important;
+        padding:.75rem;
+    }
+
 }

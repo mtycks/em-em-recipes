@@ -29,7 +29,7 @@ const TagPageTemplate = ({ data, pageContext, location }) => {
 
             {data.allMarkdownRemark.edges.map(({node}) => (
 
-              <Col sm="4" xs="6">
+              <Col md="4" sm="6">
                 <RecipeCard recipe={node} />
               </Col>
 

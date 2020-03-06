@@ -81,7 +81,7 @@ class RecipePageTemplate extends React.Component {
                     {post.frontmatter.tags.map(tag => (
                         <li key={tag} className="list-inline-item">
                             <Link to={`/tags/${slugify(tag)}`}>
-                                <Badge style={{backgroundColor: '#eb4a36'}}>{tag}</Badge>
+                                <Badge className="bg-orange">{tag}</Badge>
                             </Link>
                         </li>
                     ))}
