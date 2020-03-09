@@ -5,7 +5,7 @@ description: Love Starbucks' sea salt cold foam? This is the non-dairy recipe th
 thumbnail: ./thumbnail.jpg
 full_img: ./full-img-coconut-cream-@2x.jpg
 prep: "5 min."
-cook: "-- min."
+cook: "0 min."
 servings: "4"
 ingredients:
 - ingredient: Savoy Coconut Cream
