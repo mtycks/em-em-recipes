@@ -15,7 +15,7 @@ const Marquee = ({title, subTitle}) => {
     query MarqueeQuery {
       marqueeImage: file(absolutePath: { regex: "/header-chimichurri.jpg/" }) {
         childImageSharp {
-          fluid(maxWidth: 1400, quality: 100) {
+          fluid(maxWidth: 1100, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
