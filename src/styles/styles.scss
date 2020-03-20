@@ -296,6 +296,7 @@ svg {
     margin-bottom:1rem;
     overflow:hidden;
     line-height:1.4;
+    position: relative;
 }
 
     .recipe-instructions h4:first-child{
@@ -305,12 +306,11 @@ svg {
 .recipe-instructions h4:after{
     display: inline-block;
     margin-left: 16px;
-    width: 0;
-    content: '———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————';
-    white-space: nowrap;
-    color: #eaecf0;
-    font-weight: 100;
-    font-family: 'Helvetica', sans-serif;
+    content: '';
+    width: 100%;
+    border-top: 1px solid #eaecf0;
+    position: absolute;
+    top: 50%;
 }
 
 #main_nav .navbar-nav a:link,
