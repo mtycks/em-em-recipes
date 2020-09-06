@@ -10,6 +10,8 @@ servings: "10"
 ingredients:
 - ingredient: Beef Short Ribs (Korean-style, cut across the bone)
   amount: 2 lbs
+- ingredient: Coconut Aminos
+  amount: 3/4 cups
 - ingredient: Brown Sugar
   amount: 3/4 cups
 - ingredient: Water
