@@ -11,7 +11,7 @@ ingredients:
 - ingredient: Ground Beef or Turkey
   amount: 2 pounds
 - ingredient: Chili Powder
-  amount: 1/3 tablespoon
+  amount: 1 tablespoon
 - ingredient: Garlic powder
   amount: 1/4 teaspoon
 - ingredient: Onion Powder
