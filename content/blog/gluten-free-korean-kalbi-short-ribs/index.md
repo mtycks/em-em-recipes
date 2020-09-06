@@ -17,7 +17,7 @@ ingredients:
 - ingredient: Water
   amount: 3/4 cups
 - ingredient: Garlic (minced)
-  amount: 1 clove
+  amount: 1 tablespoon
 - ingredient: Green Onions (chopped)
   amount: 1/2 cup
 - ingredient: Toasted Sesame Oil
