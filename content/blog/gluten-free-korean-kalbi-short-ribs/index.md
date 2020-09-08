@@ -6,7 +6,7 @@ thumbnail: ./thumbnail.jpg
 full_img: ./full-img-item-@2x.jpg
 prep: "20 min."
 cook: "12 min."
-servings: "10"
+servings: "4"
 ingredients:
 - ingredient: Beef Short Ribs (Korean-style, cut across the bone)
   amount: 2 lbs
