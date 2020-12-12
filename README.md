@@ -1,5 +1,5 @@
 <h1>
-  Anderbuns Recipes
+  Chez Nosredna
 </h1>
 
-Welcome to Anderbuns Recipes!
+Welcome to our recipe collection!

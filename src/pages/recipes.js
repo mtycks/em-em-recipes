@@ -15,7 +15,7 @@ class AllRecipes extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="View all Anderbuns Recipes" />
+        <SEO title="Browse the nosredna cookbook" />
 
         <div className="container">
 

@@ -11,7 +11,7 @@ class Layout extends React.Component {
         <header><Navigation /></header>
         <main>{children}</main>
         <footer id="main_footer" className="container pb-5 pt-5 text-center">
-          © {new Date().getFullYear()} Anderbuns
+          © {new Date().getFullYear()} nosredna.org
         </footer>
       </div>
     )

@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Anderbuns Recipes`,
-    author: `Anderbuns`,
+    title: `Chez Nosredna`,
+    author: `nosredna`,
     description: `Because you don't need to read a story; you just need the damn recipe.`,
     siteUrl: `https://nosredna.org`,
     social: {
-      twitter: `alpinegizmo`,
+      twitter: ``,
     },
   },
   plugins: [
@@ -58,8 +58,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Anderbuns Recipes`,
-        short_name: `Anderbuns Recipes`,
+        name: `Chez Nosredna`,
+        short_name: `Chez Nosredna`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#Eb4A36`,

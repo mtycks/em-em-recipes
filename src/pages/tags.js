@@ -13,7 +13,7 @@ class TagsPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="View all Anderbuns Recipes" />
+        <SEO title="View the Nosredna Cookbook" />
 
         <div className="container">
 

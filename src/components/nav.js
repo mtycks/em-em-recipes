@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { Link } from "gatsby"
 import {
   Collapse,
   Navbar,
@@ -18,13 +17,10 @@ const Navigation = (props) => {
   return (
     <div id="main_nav" className="container">
       <Navbar color="white" light expand="md">
-        <Link to="/" className="navbar-brand">Anderbuns Recipes</Link>
+        <Link to="/" className="navbar-brand">Chez Nosredna</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <Link to="/" className="nav-link">Home</Link>
-            </NavItem>
             <NavItem>
               <Link to="/recipes" className="nav-link">Recipes</Link>
             </NavItem>

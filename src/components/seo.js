@@ -47,7 +47,7 @@ function SEO({ description, lang, meta, title, isRecipe, image, recipe }) {
           '@type': 'Recipe',
           author: {
             '@type': 'Organization',
-            name: 'Anderbuns Recipes'
+            name: 'Chez Nosredna'
           },
           name: title,
           description: description,
