@@ -2,7 +2,6 @@
 title: Papas Chorreadas
 date: "2020-12-12T14:04:36Z"
 description: A long-time family favorite, we discovered this recipe in one of the first vegetarian cookbooks we bought. 
-original: The New Laurel's Kitchen, 1986, page 209.
 thumbnail: ./full.jpg
 full_img: ./full.jpg
 prep: "5-10 mins"
@@ -36,6 +35,8 @@ tags:
 ---
 
 This is one of those dishes where you can get away with starting the cooking while you finish the prep.
+
+Adapted from _The New Laurel's Kitchen_, 1986, page 209.
 
 #### Step 1
 

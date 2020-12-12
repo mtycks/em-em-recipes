@@ -42,7 +42,6 @@ class RecipePageTemplate extends React.Component {
 
                 <h1 className="d-block d-md-none d-lg-block">{post.frontmatter.title}</h1>
                 <p className="d-block d-md-none d-lg-block">{post.frontmatter.description}</p>
-                {post.frontmatter.original ? <p>{post.frontmatter.original}</p> : <></>}
 
                 <div className="recipe-detail-columns">
                   <div className="recipe-detail">
@@ -182,7 +181,6 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        original
         prep
         cook
         servings
