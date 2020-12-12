@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: '/chez-nosredna',
   siteMetadata: {
     title: `Chez Nosredna`,
     author: `nosredna`,
-    description: `Because you don't need to read a story; you just need the damn recipe.`,
-    siteUrl: `https://nosredna.org`,
+    description: `The Chez Nosredna Cookbook`,
+    siteUrl: `https://alpinegizmo.github.io`,
     social: {
       twitter: ``,
     },

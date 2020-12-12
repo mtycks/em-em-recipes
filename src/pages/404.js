@@ -25,7 +25,7 @@ class NotFoundPage extends React.Component {
                 <h3 style={{fontSize:'10rem'}} className="mb-0">404</h3>
                 <h1 className="mb-5">Page Not Found</h1>
               </div>
-              <p className="text-center">While you're here, maybe you want to check out one of these recipes:</p>
+              <p className="text-center">While you're here, maybe you want to check out one of our recipes:</p>
 
               <Row className="hp-recipes">
               {posts.map(({ node }) => {
