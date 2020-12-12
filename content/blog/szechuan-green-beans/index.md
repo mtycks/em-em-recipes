@@ -5,12 +5,12 @@ description: Our copy of Microwave Gourmet opens straight to this page.
 thumbnail: './full.jpg'
 full_img: './full.jpg'
 prep: "10 mins"
-cook: "18 mins"
+cook: "20 mins"
 servings: "6-8 as a side dish"
 tools:
 - name: microwave
 ingredients:
-- ingredient: 3 cloves of garlic
+- ingredient: 3-4 cloves of garlic
   note: 6 cloves in the original
 - ingredient: some fresh ginger
 - ingredient: 2 scallions, trimmed and cut into 2-inch lengths
