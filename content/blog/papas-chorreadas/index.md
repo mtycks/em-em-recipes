@@ -35,7 +35,7 @@ tags:
 
 ---
 
-This is one of those meals where you can get away with starting the cooking while you finish the prep.
+This is one of those dishes where you can get away with starting the cooking while you finish the prep.
 
 #### Step 1
 
