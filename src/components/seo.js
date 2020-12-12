@@ -9,7 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import siteogimage from "../../content/assets/og-image-16x9.jpg"
 
 
 function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe }) {
@@ -48,7 +47,7 @@ function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe })
           '@type': 'Recipe',
           author: {
             '@type': 'Organization',
-            name: 'Em Em Recipes'
+            name: 'Anderbuns Recipes'
           },
           name: title,
           description: description,
@@ -56,7 +55,7 @@ function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe })
           prepTime: "PT" + parseInt(recipe.prep) + "M",
           recipeYield: recipe.servings,
           recipeCategory: "Dinner",
-          image: `https://ememrecipes.com` + image,
+          image: `https://nosredna.org` + image,
           recipeInstructions: [],
           recipeIngredient: []
       };
@@ -87,7 +86,6 @@ function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe })
   };
 
   const schemaOrgJSONLD = getSchemaOrgJSONLD();
-  const ogimage = (image) ? `https://ememrecipes.com` + image : `https://ememrecipes.com` + siteogimage
 
   return (
     <Helmet
@@ -104,10 +102,6 @@ function SEO({ description, lang, meta, title, isRecipe, image, steps, recipe })
         {
           property: `og:title`,
           content: title,
-        },
-        {
-          property: `og:image`,
-          content: ogimage
         },
         {
           property: `og:description`,

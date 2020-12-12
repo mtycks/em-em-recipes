@@ -1,12 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Em Em Recipes`,
-    author: `Em Em Digital`,
+    title: `Anderbuns Recipes`,
+    author: `Anderbuns`,
     description: `Because you don't need to read a story; you just need the damn recipe.`,
-    siteUrl: `https://ememrecipes.com`,
-    images: `content/assets/emem-recipes-icon.png`,
+    siteUrl: `https://nosredna.org`,
     social: {
-      twitter: `ememdigital`,
+      twitter: `alpinegizmo`,
     },
   },
   plugins: [
@@ -59,13 +58,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Em Em Recipes`,
-        short_name: `Em Em Recipes`,
+        name: `Anderbuns Recipes`,
+        short_name: `Anderbuns Recipes`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#Eb4A36`,
         display: `minimal-ui`,
-        icon: `content/assets/emem-recipes-icon.png`,
       },
     },
     `gatsby-plugin-sitemap`,

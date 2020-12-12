@@ -110,15 +110,10 @@ class RecipePageTemplate extends React.Component {
                     <ul className="list-unstyled sidebar-list tool-list">
                         {post.frontmatter.tools.map(tool => (
                             <li key={tool.name}>
-                      
-                                {tool.link ? <a href={tool.link} target="_blank" rel="noopener noreferrer">{tool.name} <span className="sr-only">(Opens in new window)</span></a> : tool.name}
-
+                                {tool.name}
                             </li>
                         ))}
                     </ul>
-                    <div className="affiliate-disclaimer mb-5">
-                      <small><em>Disclaimer: The links above may contain affiliate links which earn us a commission to help us run and maintain this website.</em></small>
-                    </div>
                   </Col>
                 </Row>              
                 

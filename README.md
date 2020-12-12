@@ -1,13 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Em Em Recipes
+<h1>
+  Anderbuns Recipes
 </h1>
 
-Welcome to Em Em Recipes built using Gatsby!
-
-
+Welcome to Anderbuns Recipes!
