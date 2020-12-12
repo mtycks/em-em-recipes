@@ -30,13 +30,13 @@ suggestions:
 tags:
 - Main
 - Latin American
-- Veganish
+- Vegan(ish)
 
 ---
 
 This is one of those dishes where you can get away with starting the cooking while you finish the prep.
 
-Adapted from _The New Laurel's Kitchen_, 1986, page 209.
+Adapted from _The New Laurel's Kitchen_ by Laurel Robertson, etal, 1986, page 209.
 
 #### Step 1
 
