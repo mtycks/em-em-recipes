@@ -14,7 +14,7 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
     const tags = data.tags.group
     const marqueeTitle = "A recipe website<br/>just for us."
-    const marqueeSubtitle = "Kid tested? Maybe.<br/>Mother approved? Definitely."
+    const marqueeSubtitle = "Kid tested? Sometimes.<br/>Mother approved? Always."
 
     return (
       <Layout location={this.props.location} title={siteTitle}>

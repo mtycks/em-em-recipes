@@ -193,13 +193,13 @@ export const pageQuery = graphql`
           ingredient
           note
         }
-        tools{
+        tools {
           name
         }
-        suggestions{
+        suggestions {
           ingredient
         }
-        full_img{
+        full_img {
           publicURL
           childImageSharp{
             fluid(maxWidth:800, quality:100){
