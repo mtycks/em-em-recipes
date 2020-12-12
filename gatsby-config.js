@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/chez-nosredna',
   siteMetadata: {
     title: `Chez Nosredna`,
     author: `nosredna`,
@@ -49,12 +48,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-130003690-6`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
