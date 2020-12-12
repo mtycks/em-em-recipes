@@ -16,7 +16,7 @@ ingredients:
   note: original calls for ½ cup; reducing the sugar makes the waffles less crispy
 - ingredient: 1¼ cup flour
 - ingredient: ¼ cup vegetable oil
-  note: original calls for butter or margarine
+  note: original calls for half a stick of butter or margarine
 - ingredient: 1 cup milk
   note: coconut milk is a delicious substitute
 - ingredient: ½ tsp ground cardamom
