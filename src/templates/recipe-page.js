@@ -10,9 +10,7 @@ class RecipePageTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { slug, previous, next } = this.props.pageContext
-    const {title} = post.frontmatter
-    const shortname = "em-em-recipes"
+    const { previous, next } = this.props.pageContext
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
