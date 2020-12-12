@@ -23,6 +23,12 @@ ingredients:
   note: original calls for 12 seeds (seeds, not pods)
 - ingredient: 3 eggs
   note: substituting flax eggs and/or chia seeds works great
+suggestions:
+- ingredient: butter
+- ingredient: maple syrup
+- ingredient: honey
+- ingredient: jam or compote
+
 tags:
 - Breakfast
 - Dessert

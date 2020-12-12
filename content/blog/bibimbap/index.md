@@ -17,13 +17,16 @@ ingredients:
   note: these are suggestions, use whatever you have
 - ingredient: 2 eggs
 - ingredient: 2 servings of cooked rice
+sauce:
 - ingredient: 1-2 Tbsp gochujang
 - ingredient: 1 Tbsp sesame oil
 - ingredient: pinch of sugar
 - ingredient: 1 tsp vinegar
   note: e.g., rice vinegar, apple cider vinegar
 - ingredient: 1 clove garlic, minced
+suggestions:
 - ingredient: roasted sesame seeds
+- ingredient: crushed roasted seaweed
 tags:
 - Main
 - Korean
@@ -49,7 +52,7 @@ Variation: pickle some thinly sliced radishes in sugar, vinegar, salt and pepper
 
 #### Step 3
 
-Mix the sauce ingredients in a bowl: the gochujang, sesame oil, sugar, vinegar, and garlic. Note: different recipes use different ratios of these ingredients.
+Mix the sauce ingredients in a bowl. Note: different recipes use different ratios of these ingredients.
 
 #### Step 4
 
@@ -71,6 +74,4 @@ Assemble everything in a small cast iron skillet, similar to what one would do w
 
 #### Final step
 
-Top with a generous sprinkling of roasted sesame seeds. 
-
-Variation: Top with a bit of crushed roasted seaweed.
+Top with a generous sprinkling of roasted sesame seeds and/or some crushed roasted seaweed.

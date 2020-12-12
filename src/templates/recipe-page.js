@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import IngredientList from "../components/ingredient-list"
 import { Row, Col, Badge } from 'reactstrap'
 import { slugify } from '../utils/utilityFunctions'
 
@@ -105,28 +106,21 @@ class RecipePageTemplate extends React.Component {
                             </ul>
                         </> : <></> 
                     }
-                    <h3 className="sidebar-title">Ingredients</h3>
-                    <ul className="list-unstyled sidebar-list ingredients-list">
-                        {post.frontmatter.ingredients.map(ingredient => (
-                            <li key={ingredient.ingredient}>
-                      
-                                {ingredient.amount} {ingredient.link ? <a href={ingredient.link} target="_blank" rel="noopener noreferrer">{ingredient.ingredient} <span className="sr-only">(Opens in new window)</span></a> : ingredient.ingredient}
-                                  {ingredient.note ? <small className="d-block"><em>{ingredient.note}</em></small> : ""}
-                            </li>
-                        ))}
-                    </ul>
-                    { 
-                        post.frontmatter.suggestions ? <>
-                            <h3 className="sidebar-title">Serving Suggestions</h3>
-                            <ul className="list-unstyled sidebar-list suggestion-list">
-                                {post.frontmatter.suggestions.map(suggestion => (
-                                    <li key={suggestion.ingredient}>
-                                        {suggestion.ingredient}
-                                    </li>
-                                ))}
-                            </ul>
-                        </> : <></>
-                    }
+
+                    <IngredientList
+                      list={post.frontmatter.ingredients}
+                      title='Ingredients'
+                      cssClass='ingredients-list' />
+                   
+                    <IngredientList
+                      list={post.frontmatter.sauce}
+                      title='Sauce'
+                      cssClass='sauce-list' />
+
+                    <IngredientList
+                      list={post.frontmatter.suggestions}
+                      title='Serving Suggestions'
+                      cssClass='suggestion-list' />
                   </Col>
                 </Row>              
                 
@@ -185,15 +179,20 @@ export const pageQuery = graphql`
         cook
         servings
         tags
+        tools {
+          name
+        }
         ingredients{
           ingredient
           note
         }
-        tools {
-          name
+        sauce {
+          ingredient
+          note
         }
         suggestions {
           ingredient
+          note
         }
         full_img {
           publicURL

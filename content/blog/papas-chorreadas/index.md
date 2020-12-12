@@ -25,7 +25,8 @@ ingredients:
   note: original calls for cottage cheese; you can skip it, or substitute yogurt, crème fraîche, or quark
 suggestions:
 - ingredient: tortillas (warmed)
-- ingredient: grated cheese
+- ingredient: grated or sliced cheese
+  note: cheddar and jack are the traditional choices
 - ingredient: coriander
 tags:
 - Main
