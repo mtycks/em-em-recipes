@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col, Badge } from 'reactstrap'
 import { slugify } from '../utils/utilityFunctions'
-import { DiscussionEmbed } from "disqus-react"
 
 class RecipePageTemplate extends React.Component {
   render() {
@@ -14,11 +13,6 @@ class RecipePageTemplate extends React.Component {
     const { slug, previous, next } = this.props.pageContext
     const {title} = post.frontmatter
     const shortname = "em-em-recipes"
-    //Define the Disqus configuration object
-    const disqusConfig = {
-      shortname: shortname,
-      config: { identifier: slug, title },
-    }
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -126,13 +120,7 @@ class RecipePageTemplate extends React.Component {
                       <small><em>Disclaimer: The links above may contain affiliate links which earn us a commission to help us run and maintain this website.</em></small>
                     </div>
                   </Col>
-                </Row>
-                <Row className="mb-5 mt-5">
-                  <Col xs="12">
-                    <DiscussionEmbed {...disqusConfig} />
-                  </Col>
-                </Row>
-              
+                </Row>              
                 
 
                 <hr />
