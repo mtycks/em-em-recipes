@@ -13,7 +13,7 @@ const Marquee = ({title, subTitle}) => {
 
   const data = useStaticQuery(graphql`
     query MarqueeQuery {
-      marqueeImage: file(absolutePath: { regex: "/header-chimichurri.jpg/" }) {
+      marqueeImage: file(absolutePath: { regex: "/header-papas.jpg/" }) {
         childImageSharp {
           fluid(maxWidth: 1100, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp

@@ -44,7 +44,7 @@ a:visited{
     }
 
     .marquee-holder .text-box{
-        color:#3d3d3d;
+        color: white;
         position: absolute;
         left:0;
         right:0;
@@ -274,9 +274,7 @@ svg {
 }
 
     .sidebar-list li{
-        padding:1rem 0 2rem;
-        margin-bottom:1rem;
-        border-bottom:1px solid #eaecf0;
+        padding:1rem 0 1rem;
         width:100%;
     }
 

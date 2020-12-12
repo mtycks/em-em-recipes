@@ -22,7 +22,6 @@ class RecipePageTemplate extends React.Component {
           isRecipe={true}
           datePublished={post.frontmatter.date}
           image={post.frontmatter.full_img.publicURL}
-          steps={post.frontmatter.steps}
           recipe={post.frontmatter}
         />
         <div className="container">
@@ -45,6 +44,7 @@ class RecipePageTemplate extends React.Component {
 
                 <h1 className="d-block d-md-none d-lg-block">{post.frontmatter.title}</h1>
                 <p className="d-block d-md-none d-lg-block">{post.frontmatter.description}</p>
+                {post.frontmatter.original ? <p>{post.frontmatter.original}</p> : <></>}
 
                 <div className="recipe-detail-columns">
                   <div className="recipe-detail">
@@ -96,6 +96,18 @@ class RecipePageTemplate extends React.Component {
                     <section className="recipe-instructions" dangerouslySetInnerHTML={{ __html: post.html }} />
                   </Col>
                   <Col sm="12" md={{size:4, offset:1}}  className="order-md-last order-first">
+                    { 
+                        post.frontmatter.tools ? <>
+                            <h3 className="sidebar-title">Tools</h3>
+                            <ul className="list-unstyled sidebar-list tool-list">
+                                {post.frontmatter.tools.map(tool => (
+                                    <li key={tool.name}>
+                                        {tool.name}
+                                    </li>
+                                ))}
+                            </ul>
+                        </> : <></> 
+                    }
                     <h3 className="sidebar-title">Ingredients</h3>
                     <ul className="list-unstyled sidebar-list ingredients-list">
                         {post.frontmatter.ingredients.map(ingredient => (
@@ -106,14 +118,18 @@ class RecipePageTemplate extends React.Component {
                             </li>
                         ))}
                     </ul>
-                    <h3 className="sidebar-title">Tools</h3>
-                    <ul className="list-unstyled sidebar-list tool-list">
-                        {post.frontmatter.tools.map(tool => (
-                            <li key={tool.name}>
-                                {tool.name}
-                            </li>
-                        ))}
-                    </ul>
+                    { 
+                        post.frontmatter.suggestions ? <>
+                            <h3 className="sidebar-title">Serving Suggestions</h3>
+                            <ul className="list-unstyled sidebar-list suggestion-list">
+                                {post.frontmatter.suggestions.map(suggestion => (
+                                    <li key={suggestion.ingredient}>
+                                        {suggestion.ingredient}
+                                    </li>
+                                ))}
+                            </ul>
+                        </> : <></>
+                    }
                   </Col>
                 </Row>              
                 
@@ -168,20 +184,20 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        original
         prep
         cook
         servings
         tags
-        steps
         ingredients{
           ingredient
-          amount
-          link
           note
         }
         tools{
           name
-          link
+        }
+        suggestions{
+          ingredient
         }
         full_img{
           publicURL

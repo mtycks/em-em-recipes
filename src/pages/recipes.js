@@ -43,13 +43,6 @@ class AllRecipes extends React.Component {
                   </Col>
                 )
               })}
-                <Col>
-                  <div className="more-recipes-soon p-3">
-
-                    <h3 className="text-center">Thanks for visiting! We will be adding more recipes soon.</h3>
-
-                  </div>
-                </Col>
               </Row>
             </Col>
           </Row>
