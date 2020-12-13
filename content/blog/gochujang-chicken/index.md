@@ -33,6 +33,8 @@ tags:
 
 Adapted from https://www.bonappetit.com/recipe/slow-roast-gochujang-chicken.
 
+Modifications: I use half as much garlic, add more veggies, and skip the honey.
+
 #### Step 1
 
 Prehead oven to 300° with rack in the middle.

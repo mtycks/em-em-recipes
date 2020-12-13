@@ -15,12 +15,12 @@ ingredients:
   note: room temperature
 - ingredient: 75 g / 100 ml tahini
 - ingredient: 100 g / ½ cup light brown sugar
-  note: Boy Who Bakes says 200 g (without dates), and that's too much
+  note: Boy Who Bakes says 200 g (without dates), and that's too much. But sans dates, 100 g might not be enough.
 - ingredient: 8 soft dates (optional)
-  note: I haven't tried this with dates
+  note: I haven't tried this with dates.
 - ingredient: 2 large eggs
 - ingredient: 60 g very dark chocolate, roughly chopped
-  note: Green Kitchen says 150 g, Boy Who Bakes says 250 g
+  note: Green Kitchen says 150 g, Boy Who Bakes says 250 g (but both used sweeter chocolate).
 - ingredient: sesame seeds (to coat)
 
 tags:
