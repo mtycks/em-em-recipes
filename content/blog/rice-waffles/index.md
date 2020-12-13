@@ -5,7 +5,7 @@ description: Carolyn Matthews' family recipe
 full_img: './full.jpg'
 prep: "10 mins"
 cook: "20 mins"
-servings: "4"
+servings: "3-4"
 tools:
 - name: waffle iron
 ingredients:
@@ -35,7 +35,7 @@ tags:
 
 ---
 
-If you make some extra rice for dinner the night before, then this comes together quickly.
+If you make some extra rice for dinner the night before, then this comes together quickly. If you didn't, add in some extra prep time for making the rice.
 
 If the rice is hot, be careful not to add the eggs directly to the hot rice, or you risk cooking the eggs prematurely (in the mixing bowl).
 
