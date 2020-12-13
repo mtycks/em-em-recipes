@@ -89,7 +89,7 @@ export const pageQuery = graphql`
             description
             prep
             cook
-            thumbnail{
+            full_img{
               childImageSharp{
                 fluid(maxWidth:470, quality:70){
                   ...GatsbyImageSharpFluid_withWebp

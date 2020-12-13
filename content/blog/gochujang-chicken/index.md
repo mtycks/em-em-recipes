@@ -2,7 +2,6 @@
 title: Slow-Roasted Gochujang Chicken
 date: "2020-12-12T16:20:36Z"
 description: An instant favorite. 
-thumbnail: ./full.jpg
 full_img: ./full.jpg
 prep: "20-30 mins"
 cook: "2½-3 hours"

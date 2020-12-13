@@ -2,7 +2,6 @@
 title: Norwegian Rice Waffles
 date: "2020-12-12T19:57:30Z"
 description: Carolyn Matthews' family recipe
-thumbnail: './full.jpg'
 full_img: './full.jpg'
 prep: "10 mins"
 cook: "20 mins"
@@ -39,3 +38,5 @@ tags:
 If you make some extra rice for dinner the night before, then this comes together quickly.
 
 If the rice is hot, be careful not to add the eggs directly to the hot rice, or you risk cooking the eggs prematurely (in the mixing bowl).
+
+A belgian waffle iron works fine, but we prefer the texture that results from using a more traditional waffle iron (the thinner waffles have more surface area).

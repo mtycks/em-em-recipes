@@ -2,7 +2,6 @@
 title: Papas Chorreadas
 date: "2020-12-12T14:04:36Z"
 description: A long-time family favorite, we discovered this recipe in one of the first vegetarian cookbooks we bought. 
-thumbnail: ./full.jpg
 full_img: ./full.jpg
 prep: "5-10 mins"
 cook: "30 mins"

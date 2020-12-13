@@ -2,7 +2,6 @@
 title: Szechuan Green Beans
 date: "2020-12-12T18:22:30Z"
 description: Our copy of Microwave Gourmet opens straight to this page. 
-thumbnail: './full.jpg'
 full_img: './full.jpg'
 prep: "10 mins"
 cook: "20 mins"

@@ -2,7 +2,6 @@
 title: Bibimbap
 date: "2020-12-12T20:28:30Z"
 description: This Korean comfort food is quite forgiving, and less trouble than it looks.
-thumbnail: './full.jpg'
 full_img: './full.jpg'
 prep: "20 mins"
 cook: "30 mins"
@@ -74,4 +73,4 @@ Assemble everything in a small cast iron skillet, similar to what one would do w
 
 #### Final step
 
-Top with a generous sprinkling of roasted sesame seeds and/or some crushed roasted seaweed.
+Top with a generous sprinkling of roasted sesame seeds and/or some crushed roasted seaweed, and serve with the sauce on the side.
