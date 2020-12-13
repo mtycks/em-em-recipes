@@ -8,7 +8,7 @@ cook: "11 mins"
 servings: ""
 ingredients:
 - ingredient: 1 cup rye flour
-- ingredient: 3/4 cup wheat flour
+- ingredient: ¾ cup wheat flour
 - ingredient: 1½ tsp baking powder
 - ingredient: ½ tsp salt
 - ingredient: 100 g / 3½ oz unsalted butter
