@@ -3,12 +3,12 @@ title: No Knead Bread
 date: "2020-12-13T11:08:01Z"
 description: An internet classic
 full_img: './full.jpg'
-prep: "18 hours"
-cook: "45 mins"
+prep: "18+ hours"
+cook: "45-50 mins"
 servings: "1 loaf"
 tools:
 - name: dutch oven
-  note: We use a pyrex caserole dish with a lid.
+  note: I use a pyrex caserole dish with a lid.
 - name: parchment paper
 ingredients:
 - ingredient: 3 cups all-purpose flour
@@ -22,13 +22,15 @@ tags:
 
 ---
 
-The ur-recipe: https://www.youtube.com/watch?v=13Ah9ES2yTU.
+The ur-recipe that created a cult:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/13Ah9ES2yTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The internet is full of recipes for no-knead bread. [This one from jocooks.com](https://www.jocooks.com/recipes/no-knead-bread/) is another good starting point, but doesn't include a second rise, which is something you want. [What does the second rise do?](https://www.chowhound.com/post/knead-bread-rise-344524?page=2)
 
 The reasoning behind no-knead bread is:
 
-* By using very little yeast, a lot of water, and a long rising time, you're getting a lot of fermentation and gluten development. 
+* By using very little yeast, a lot of water, and a long rising time, you're getting a lot of fermentation and gluten development (that otherwise requires kneading).
 
 * By baking it in a closed dutch oven, all that water in the dough is creating steam, which mimicks the steam ovens that bakers use.
 
