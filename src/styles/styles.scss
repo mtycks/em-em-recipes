@@ -297,9 +297,9 @@ svg {
     position: relative;
 }
 
-    .recipe-instructions h4:first-child{
-        margin-top:0;
-    }
+.recipe-instructions h4:first-child{
+    margin-top:0;
+}
 
 .recipe-instructions h4:after{
     display: inline-block;
@@ -309,6 +309,10 @@ svg {
     border-top: 1px solid #eaecf0;
     position: absolute;
     top: 50%;
+}
+
+.recipe-instructions li{
+    margin-bottom: 1rem;
 }
 
 #main_nav .navbar-nav a:link,

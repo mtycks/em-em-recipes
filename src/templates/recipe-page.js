@@ -94,18 +94,11 @@ class RecipePageTemplate extends React.Component {
                     <section className="recipe-instructions" dangerouslySetInnerHTML={{ __html: post.html }} />
                   </Col>
                   <Col sm="12" md={{size:4, offset:1}}  className="order-md-last order-first">
-                    { 
-                        post.frontmatter.tools ? <>
-                            <h3 className="sidebar-title">Tools</h3>
-                            <ul className="list-unstyled sidebar-list tool-list">
-                                {post.frontmatter.tools.map(tool => (
-                                    <li key={tool.name}>
-                                        {tool.name}
-                                    </li>
-                                ))}
-                            </ul>
-                        </> : <></> 
-                    }
+
+                    <IngredientList
+                      list={post.frontmatter.tools}
+                      title='Tools'
+                      cssClass='tool-list' />
 
                     <IngredientList
                       list={post.frontmatter.ingredients}
@@ -121,6 +114,7 @@ class RecipePageTemplate extends React.Component {
                       list={post.frontmatter.suggestions}
                       title='Serving Suggestions'
                       cssClass='suggestion-list' />
+
                   </Col>
                 </Row>              
                 
@@ -181,6 +175,7 @@ export const pageQuery = graphql`
         tags
         tools {
           name
+          note
         }
         ingredients{
           ingredient
