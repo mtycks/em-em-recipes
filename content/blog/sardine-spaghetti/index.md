@@ -16,6 +16,7 @@ ingredients:
 
 tags:
 - Main
+- Italian
 
 ---
 

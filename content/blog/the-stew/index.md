@@ -20,7 +20,7 @@ ingredients:
 - ingredient: 1 tsp red-pepper flakes
 - ingredient: 1 large can of chickpeas
 - ingredient: 2 (15-ounce) cans coconut milk
-  note: yes, that's a lot
+  note: yes, that's a lot. you could use 1½ cans and add more water
 - ingredient: 2 cups of stock
   note: or water
 - ingredient: "1 bunch of greens: Swiss chard, kale, ..."
@@ -35,9 +35,11 @@ tags:
 
 ---
 
-Original recipe: https://imgur.com/a/0O2c4yl
+Original recipe: https://imgur.com/a/0O2c4yl.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jaN3qsqXt38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Variation: I think this would be really good with some cauliflower added to it.
 
 #### Step 1: 3-5 minutes
 
