@@ -5,7 +5,7 @@ description: Spicy Korean stew made from pantry staples and whatever veggies you
 full_img: './full.jpg'
 prep: "15 mins"
 cook: "30 mins"
-servings: "4"
+servings: "2-3"
 ingredients:
 - ingredient: 2 green onions
 - ingredient: ½ a yellow onion, thinly sliced
