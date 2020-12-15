@@ -32,6 +32,7 @@ suggestions:
 - ingredient: flat bread
 tags:
 - Vegan(ish)
+- Indian
 
 ---
 

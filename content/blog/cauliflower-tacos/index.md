@@ -28,6 +28,7 @@ suggestions:
 
 tags:
 - Main
+- Mexican
 - Vegan(ish)
 
 ---
