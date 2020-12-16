@@ -33,6 +33,8 @@ Whisk together the dry ingredients, then add the wet to the dry. Do not overwork
 
 The popular notion that "the first pancake is always spoiled" is only true if you aren't familiar with the pan and the stove. Once you know what you're doing, you can get it right every time. Just make sure the pan is hot before you pour on the batter. A droplet of water should skeeter across the pan: if it sits there, the pan is too cold, if it evaporates instantly, it's too hot.
 
+A pancake is ready to flip over when it starts to firm up around the rim, and the bubbles that form stick around after they pop.
+
 For miso maple butter, see [Miso Maple Butter Is the Condiment You Have Been Missing Your Entire Life](https://www.myrecipes.com/extracrispy/miso-maple-butter-recipe).
 
 ### &nbsp;

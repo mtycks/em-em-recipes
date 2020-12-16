@@ -1,5 +1,5 @@
 ---
-title: Mapo Tofu
+title: Vegan Mapo Tofu
 date: "2020-12-13T20:12:00Z"
 description: A vegan version on this intensely spicy classic
 full_img: './full.png'
