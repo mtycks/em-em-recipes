@@ -14,7 +14,7 @@ ingredients:
 - ingredient: ¼ tsp ground cardamom
 - ingredient: 1 small onion, chopped
 - ingredient: 1 garlic clove, finely chopped
-- ingredient: 1½" piece ginger, peeled, chopped
+- ingredient: 1½-inch piece ginger, peeled, chopped
 - ingredient: 1 lb baby spinach
 - ingredient: 1 small green chile or serrano chile, coarsely chopped
 - ingredient: 1½ tsp fresh lime juice
