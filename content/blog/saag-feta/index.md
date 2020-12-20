@@ -32,7 +32,6 @@ suggestions:
 tags:
 - Main
 - Indian
-- Vegan(ish)
 
 ---
 
