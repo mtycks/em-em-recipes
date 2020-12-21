@@ -21,6 +21,7 @@ ingredients:
 
 tags:
 - Side
+- Salad
 - Vegan(ish)
 
 ---
