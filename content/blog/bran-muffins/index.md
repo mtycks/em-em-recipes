@@ -6,6 +6,9 @@ full_img: './full.jpg'
 prep: "10 mins"
 cook: "16-18  mins"
 servings: "?"
+tools:
+- name: muffin tray
+  note: the rubber ones are easier to work with
 ingredients:
 - ingredient: 1 cup boiling water
 - ingredient: 1 cup bran flakes
@@ -33,7 +36,7 @@ tags:
 
 * Add Bran Buds and soggy bran flakes, then gradually add in flour, salt, and baking soda. Mix well.
 
-* Fill muffin tins 2/3 full.
+* Either use a silicone rubber muffin tray, or paper cups (or both). If you use the bare rubber tray, it's still a good idea to lightly grease the cups. Fill the cups about 2/3 full.
 
 * Bake at 400°F for 16-18 minutes.
 
