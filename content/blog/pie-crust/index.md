@@ -14,6 +14,7 @@ ingredients:
 
 tags:
 - Dessert
+- Vegan(ish)
 
 ---
 
