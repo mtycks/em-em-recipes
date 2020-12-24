@@ -72,4 +72,4 @@ Add the broccoli and tofu, then wait at least until the veggies and protein are 
 
 
 
-Image is shared under the [Creative Commons Attribution-Share Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en).
+Image is shared under the [Creative Commons Attribution-Share Alike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/deed.en).

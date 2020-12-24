@@ -20,4 +20,4 @@ tags:
 
 You're smart people, you can figure it out.
 
-The image is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+Image is shared under the [Creative Commons Attribution-Share Alike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/deed.en).

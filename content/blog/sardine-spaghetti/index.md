@@ -34,4 +34,4 @@ If you want to go the extra mile, grill a red pepper and a zucchini.
 
 Heat up the sardines and sauce, adding some pitted olives (if you want), and the grilled veggies (if you decide to bother). Crop up a generous bunch of parsley and add it in toward the end, if you have some.
 
-The image is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+Image is shared under the [Creative Commons Attribution-Share Alike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/deed.en).
