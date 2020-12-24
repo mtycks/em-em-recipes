@@ -21,6 +21,8 @@ ingredients:
 - ingredient: uncooked salmon filet(s), ~200 g per person/serving (roughly ⅓-½ lb), with or without skin
 - ingredient: fresh basil
   note: or frozen, or dried
+- ingredient: clove of garlic, minced
+  note: optional
 - ingredient: black pepper
 - ingredient: salt
 suggestions:
@@ -33,20 +35,28 @@ tags:
 
 ---
 
+The timings given here are assuming 2 rather thick, medium-large salmon filets. You don't want to overcook the fish, so be conservative. If you're making less, or working with thin filets, 3 to 3.5 minutes of total cooking time may be all you need.
+
 #### Step 1
 
 * Cover the bottom of a shallow 9-inch square microwave-safe baking dish with 1 T olive oil, 1 T lemon juice
 * Arrange a layer of sliced/chunked tomatoes, covered liberally with basil
-* Season with black pepper and salt to taste
-* Put in salmon, skin side up (if there's skin)
+* Season with salt and pepper (and possibly garlic) to taste
+* If the salmon has skin, arrange it in the dish with the bare skin up; otherwise cover the salmon with some of the basil-tomato-lemon-oil mixture
 * Cover dish with lid or plastic film 
 * Microwave for 2.5 minutes on high
 
 #### Step 2
 
-* Take dish out and remove skin from salmon (if it has skin)
-* Turn salmon upside down and use a spoon to pull up some (not all) of the tomato-lemon juice-oil-etc. mixture to cover the salmon (it doesn't matter if the salmon skin has scales, but if it does, remove the skin and scales before turning the fish over; you don't want the scales to get into the sauce in the bottom of the dish)
-* Recover with the lid or plastic wrap and cook until just done all the way through; perhaps another 2 minutes (or 3 minutes for thick filets)
+If the salmon has skin:
+
+* Take dish out and remove the skin from the salmon
+* Turn the salmon upside down and use a spoon to pull up some (not all) of the basil-tomato-lemon-oil-etc. mixture to cover the salmon (it doesn't matter if the salmon skin has scales, but if it does, remove the skin and scales before turning the fish over; you don't want the scales to get into the sauce in the bottom of the dish)
+* Recover with the lid or plastic wrap
+
+In all cases:
+
+* Check on doneness, and cook until just done all the way through; perhaps another 2 minutes (or 3 minutes for thick filets)
 * Let sit for 2-3 minutes before uncovering
 
 #### Step 3
