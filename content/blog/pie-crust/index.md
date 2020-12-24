@@ -28,3 +28,5 @@ The margarine should be soft enough to blend in with the flour and salt. It's no
 Divide the two into two halves, one for each crust. Put each dough ball between two 15-inch lengths of plastic wrap, and roll them out this way.
 
 For something like a pumpkin pie that only uses a bottom crust, and has a custard filling, conventional wisdom says to pre-bake the crust. Don't bother.
+
+The photo above &mdash; the one that looks like a cave &mdash; is an example of what you get when you bake the pie a bit too long and use either butter, or margarine with too many milk solids: the crust is hard, and the apple filling turns to apple sauce. But it still tastes good.
