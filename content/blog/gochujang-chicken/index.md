@@ -3,7 +3,7 @@ title: Slow-Roasted Gochujang Chicken
 date: "2020-12-12T16:20:36Z"
 description: An instant favorite. 
 full_img: ./full.jpg
-prep: "20-30 mins"
+prep: "1 hour"
 cook: "2½-3 hours"
 servings: "4"
 tools:
@@ -34,6 +34,8 @@ tags:
 Adapted from https://www.bonappetit.com/recipe/slow-roast-gochujang-chicken.
 
 Modifications: I use half as much garlic, add more veggies, and skip the honey.
+
+If two people work together, the prep can be done in 30 minutes.
 
 #### Step 1
 
@@ -72,5 +74,3 @@ Once out of the oven, let everything rest for 10-15 minutes before cutting into 
 #### Step 8
 
 The scallions, limes, and honey are for dressing things up, if you want. We usually skip the honey, and never have enough scallions.
-
-
