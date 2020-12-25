@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "chez-nosredna",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A recipe site built on gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "David Anderson",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gatsby": "^2.28.2",
@@ -54,9 +51,9 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git@github.com:alpinegizmo/chez-nosredna.git"
   },
-"scripts": {
+  "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
