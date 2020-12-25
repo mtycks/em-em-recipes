@@ -7,7 +7,7 @@ prep: "1 hour"
 cook: "2½-3 hours"
 servings: "4"
 tools:
-- name: 14-inch cast iron skillet (or something large enough to roast a whole chicken plus veggies)
+- name: large cast iron skillet (or something large enough to roast a whole chicken plus veggies)
 - name: pastry brush (or your hands)
 - name: whisk (or a fork)
 - name: microplane grater (or a knife)
