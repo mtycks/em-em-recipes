@@ -36,7 +36,7 @@ tags:
 
 ---
 
-If you make some extra rice for dinner the night before, then this comes together quickly. 
+If you make some extra rice for dinner the night before, then this comes together quickly. Otherwise, start the rice while you put together the rest of the batter, and then add the rice once it's ready.
 
 If the rice is hot, be careful not to add the eggs directly to the hot rice, or you risk cooking the eggs prematurely (in the mixing bowl). Better to first mix the dry ingredients, then whisk in the oil, milk, and eggs, and finally the rice. _Don't forget the cardamom!_
 
