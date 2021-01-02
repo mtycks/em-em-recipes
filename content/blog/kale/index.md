@@ -29,6 +29,6 @@ Original recipe.
 
 * Drain in collander. Remove excess water from kale (best done by squeezing, shaking may be sufficient).
 
-* Dress with olive oil, soy sauce, lime juice. Mix. Add garlic powder and black pepper.
+* Dress with olive oil, soy sauce, lime juice. Toss. Add garlic powder and black pepper. Toss again and serve. Discolors if stored in the refrigerator, best eaten fresh.
 
 
