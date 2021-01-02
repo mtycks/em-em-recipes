@@ -19,7 +19,7 @@ ingredients:
 - ingredient: Bonito flakes (garnish)
 - ingredient: Toasted seasme seeds (garnish)
 - ingredient: 6ish shiso leaves, cut into strips. Optional but highly recommended.
-- ingredient: Kombu, cut into strips. Alternative: a pinch of msg and/or extra bonito flakes.
+- ingredient: "Kombu, cut into strips. Alternative: a pinch of msg and/or extra bonito flakes."
 tags:
 - Japanese
 - Pickles
