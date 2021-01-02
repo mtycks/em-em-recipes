@@ -2,9 +2,9 @@
 title: Albers Corn Muffins
 date: "2021-01-21T16:18:00Z"
 description: Nick loves these. It is the Albers cornbread recipe put into a muffin mold.
-full_img: './corn_muffins.jpg'
+full_img: './corn-muffins.jpg'
 prep: "5 mins"
-bake: "20-25  mins"
+bake: "20-25 mins"
 servings: 1 tray
 tools:
 - name: muffin tray
