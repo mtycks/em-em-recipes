@@ -1,12 +1,13 @@
 ---
 title: Kimchi
 date: "2021-01-01T16:42:30Z"
-description: 
+description: Adapation from Maangchi's kimchi recipe. Excellent; much better than store-bought.
 full_img: './kimchi.jpg'
 prep: "1-2 days"
 servings: "2 quart-sized Mason jars"
 tools:
 - name: 4 quart-sized wide-mouthed Mason jars
+- name: large bowl
 - name: kitchen scale (to weigh ingredients)
 - name: kitchen scissors (to serve) 
 ingredients:
@@ -23,14 +24,13 @@ ingredients:
 - ingredient: 4 scaliions, chopped
 - ingredient: 1.5 ounces Asian chives (or additional scaliions)
 - ingredient: (optional but strongly recommended) 6-12 green shiso leaves, sliced into strips
-optional:
-- ingredient: 1 small carrot, peeled & chopped into matchsticks
 tags:
 - Korean
+- pickles
 
 ---
 
-Inspiration:
+Adapted from:
   - https://www.wnyc.org/story/recipe-maangchis-napa-cabbage-kimchi/
   - https://www.maangchi.com/recipes/kimchi
 
