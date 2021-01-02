@@ -2,7 +2,7 @@
 title: Everyday kale
 date: "2021-01-02T16:18:00Z"
 description: One of Emily and Nick's go-to weekday vegetable sides.
-full_img: './corn-muffins.jpg'
+full_img: './kale.jpg'
 prep: "3 mins"
 cook: "2 mins"
 servings: 2 to 4
