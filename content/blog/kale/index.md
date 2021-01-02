@@ -1,35 +1,34 @@
 ---
 title: Everyday kale
 date: "2021-01-02T16:18:00Z"
-description: Nick loves these. It is the Albers cornbread recipe put into a muffin mold.
+description: One of Emily and Nick's go-to weekday vegetable sides.
 full_img: './corn-muffins.jpg'
 prep: "3 mins"
 cook: "2 mins"
-servings: 1 tray
+servings: 2 to 4
 tools:
 - name: collander
 ingredients:
 - ingredient: ½ to 1 bunch Kale
-- ingredient: Soy sauce (generous splash, Tamari recommended)
-- ingredient: Olive oil (generous splash)
-- ingredient: Garlic powder (Heavy shake)
+- ingredient: Soy sauce (very generous splash, Tamari recommended)
+- ingredient: Olive oil (very generous splash)
+- ingredient: Juice squeezed from ¼ lime 
+- ingredient: Garlic powder (a few heavy shakes)
 - ingredient: Black pepper (several seconds grind)
 
 tags:
-- Breakfast
+- Side
 
 ---
 
-Adapted from [Albers cornbread](http://alberscorn.com/albers-corn-bread/) 
+Original recipe.
 
-* Preheat oven to 400°F / 200°C.
+* Tear apart kale leaves into bite sized pieces, removing large center stem.
 
-* Lightly grease silcone baking tray
+* Boil for 2ish minutes.
 
-* Combine dry ingredients and wet ingredients separately; mix well. Add liquid to dry ingredients and stir until just blended. Scoop into baking tin.
+* Drain in collander. Remove excess water from kale (best done by squeezing, shaking may be sufficient).
 
-* Bake 20 to 25 minutes or until fork test comes out clean.
-
-* Serve warm with honey.
+* Dress with olive oil, soy sauce, lime juice. Mix. Add garlic powder and black pepper.
 
 
