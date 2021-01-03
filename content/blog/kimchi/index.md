@@ -21,12 +21,13 @@ ingredients:
 - ingredient: 5 oz Korean radish or daikon, peeled and cut into matchsticks
 - ingredient: ¼ cup fish sauce
 - ingredient: ⅔ cup gochu-garu (Korean hot pepper flakes)
-- ingredient: 4 scaliions, chopped
+- ingredient: 4 scallions, chopped
 - ingredient: 1.5 ounces Asian chives (or additional scaliions)
 - ingredient: (optional but strongly recommended) 6-12 green shiso leaves, sliced into strips
 tags:
 - Korean
-- pickles
+- Pickles
+- Side
 
 ---
 
@@ -36,7 +37,7 @@ Adapted from:
 
 #### Step 1
 
-Cut each cabbage in half through the core, then cut a slit through the core 2 inches above the stem so that the leaves are loosened but still attached. Dunk the halves in a large bowl of water to moisten all the leaves. Place on a work surface. Sprinkle the salt between the leaves and put the cabbage in a large bowl. Let stand for 1½ hours, turning the cabbage over every 30 minutes.
+Cut cabbage in half through the core, then cut a slit through the core 2 inches above the stem so that the leaves are loosened but still attached. Dunk the halves in a large bowl of water to moisten all the leaves. Place on a work surface. Sprinkle the salt between the leaves and put the cabbage in a large bowl. Let stand for 1½ hours, turning the cabbage over every 30 minutes.
 
 #### Step 2
 
@@ -52,7 +53,7 @@ Prepare the kimchi paste: Put the cooled porridge, garlic, ginger, shiso, fish s
 
 #### Step 5
 
-Leaving the cabbage quarters intact, spread some kimchi paste over each leaf. Pack the cabbage quarters into the four Mason jars or other airtight containers and cover. 
+Leaving the cabbage quarters intact, spread some kimchi paste over each leaf. Pack the cabbage quarters into the four Mason jars or other airtight containers and cover. Leave a little bit of "head room" to allow for fermentation.
 
 #### Step 6
 
