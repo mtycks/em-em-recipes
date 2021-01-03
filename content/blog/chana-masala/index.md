@@ -1,6 +1,6 @@
 ---
 title: Chana Masala
-date: "2020-12-20T18:18:40Z"
+date: "2021-01-03T10:48:40Z"
 description: We prefer this to the version served in most restaurants
 full_img: './full.jpg'
 prep: "20 mins"
@@ -14,6 +14,7 @@ ingredients:
 - ingredient: 1½ tsp garam masala
 - ingredient: 1 tsp chile powder
 - ingredient: 2 tsp ground pomegranate seeds
+  note: See the instructions for substituting chana masala spice mix.
 - ingredient: ½ tsp garlic pulp
 - ingredient: 1 tsp salt
 - ingredient: 2 Tbsp tomato paste
@@ -38,9 +39,11 @@ tags:
 
 From [Vegetarian Indian](https://www.amazon.com/Vegetarian-Indian-Husain-Shehzad-Hardcover/dp/B011YTS2T6/ref=sr_1_13), by Shehzad Husain, 1995, p. 85.
 
+Lately I've been using 4 tsp of chana masala spice mix instead of the garam masala, chile powder, and pomegranate seeds, plus some additional garam masala for added flavor (about 1 tsp). If your spice mix is fresh, the extra garam masala might not be necessary.
+
 #### Step 1
 
-Combine onions, garam masala, chile powder pomegranate seeds, garlic pulp, salt, and tomato paste in a food processor.
+Combine onions, spices, garlic pulp, salt, and tomato paste in a food processor.
 
 #### Step 2
 
@@ -53,4 +56,4 @@ Stir fry for about 3 minutes, then add the chickpeas.
 Cook for 5-7 minutes.
 
 
-
+![cooked, ready to serve](./chana-masala.jpg)
