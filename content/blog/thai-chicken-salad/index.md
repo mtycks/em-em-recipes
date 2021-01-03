@@ -4,7 +4,7 @@ date: "2020-12-21T20:03:18Z"
 description: Sweet heat
 full_img: './full.jpg'
 prep: "40 mins"
-cook: "0 mins"
+cook: ""
 servings: "4"
 ingredients:
 - ingredient: 1/2 medium red onion, thinly sliced

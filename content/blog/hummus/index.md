@@ -4,7 +4,7 @@ date: "2020-12-20T11:33:07Z"
 description: Hummus
 full_img: './full.jpg'
 prep: "15 mins"
-cook: "0 mins"
+cook: ""
 servings: "3"
 tools:
 - name: blender or food processor

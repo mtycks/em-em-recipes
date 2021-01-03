@@ -4,7 +4,7 @@ date: "2020-12-20T10:21:35Z"
 description: Simple and delicious
 full_img: './full.jpg'
 prep: "5 mins"
-cook: "0 mins"
+cook: ""
 servings: "1 cup"
 ingredients:
 - ingredient: 1/2 cup peanut butter natural, unsweetened

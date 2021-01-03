@@ -4,7 +4,7 @@ date: "2020-12-13T11:57:30Z"
 description: Jazz up your tuna sandwiches
 full_img: './full.jpg'
 prep: "10 mins"
-cook: "0 mins"
+cook: ""
 servings: "3"
 ingredients:
 - ingredient: 1 can of tuna

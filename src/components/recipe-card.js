@@ -14,7 +14,7 @@ const RecipeCard = ({recipe}) => {
           <h3>{recipe.frontmatter.title}</h3>
         </section>
         <footer>
-          <small>Prep: {recipe.frontmatter.prep} | Cook: {recipe.frontmatter.cook}</small>
+          <small>Prep: {recipe.frontmatter.prep} { recipe.frontmatter.cook ? `| Cook: ${recipe.frontmatter.cook}` : '' } </small>
         </footer>
       </Link>
     </article>
