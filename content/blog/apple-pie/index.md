@@ -31,11 +31,15 @@ Peel the apples and slice them relatively thin.
 
 #### Step 3
 
-Put the flour, brown sugar, and a bunch of cinnamon and some nutmeg onto the apples and toss it all around until the apples are well coated. Arrange the apples in a heap on top of the pie crust in the pie dish. (If you use really big apples, you may want to stack the apples fairly carefully to fit them all in.) 
+Put the flour, brown sugar, and a bunch of cinnamon and some nutmeg onto the apples and toss it all around until the apples are well coated. Arrange the apples in a heap on top of the pie crust in the pie dish. (If you use really big apples, you may want to stack the apples fairly carefully to fit them all in.)
 
 #### Step 4
 
+![ready to add the top crust](./apple-pie-assembly.jpg)
+
 Roll out the other crust and cover the mound of apples. You can get fancy-schmancy with the top crust if you wish, of course, so long as you make sure there are a few vent holes in the top crust. (For a plain top crust, just prick it a few times with a fork in a few different places.)
+
+![ready to bake](./ready-to-bake.jpg)
 
 #### Step 5
 
