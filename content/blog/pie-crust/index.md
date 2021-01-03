@@ -1,11 +1,13 @@
 ---
 title: Pie Crust
-date: "2020-12-24T17:10:32Z"
+date: "2021-01-03T11:10:32Z"
 description: "Works with most any filling: apple, pumpkin, blueberry, chicken pot pie, etc."
 full_img: './full.jpg'
 prep: '10-15 mins'
 cook: 'Bake it with a filling'
 servings: "2 crusts"
+tools:
+- name: pie plate
 ingredients:
 - ingredient: 1 cup all-purpose flour
 - ingredient: 1 stick of salted margarine
@@ -28,6 +30,12 @@ The margarine should be soft enough to blend in with the flour and salt. It's no
 
 Divide the two into two halves, one for each crust. Put each dough ball between two 15-inch lengths of plastic wrap, and roll them out this way.
 
+You can use bottom layer of plastic wrap to help you invert the crust into the pie plate:
+
+![flipping the crust](./inversion.jpg)
+
 For something like a pumpkin pie that only uses a bottom crust, and has a custard filling, conventional wisdom says to pre-bake the crust. Don't bother.
 
-The photo above &mdash; the one that looks like a cave &mdash; is an example of what you get when you bake the pie a bit too long and use either butter, or margarine with too many milk solids: the crust is hard, and the apple filling turns to apple sauce. But it still tastes good.
+The photo below &mdash; the one that looks like a cave &mdash; is an example of what you get when you bake the pie a bit too long and use either butter, or margarine with too many milk solids: the crust is hard, and the apple filling turns to apple sauce. But it still tastes good.
+
+![pie crust cave](./pie-crust-cave.jpg)
