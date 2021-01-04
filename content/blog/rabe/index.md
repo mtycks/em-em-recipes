@@ -11,10 +11,10 @@ tools:
 - name: Baking sheet or broiling tray.
 ingredients:
 - ingredient: 1 bunch broccoli rabe (aka rapini), ends trimmed
-- ingredient: 1 tbsp whole cumin seeds
-- ingredient: 1 tbsp whole Sichuan peppercorns
+- ingredient: ¼ tsp whole cumin seeds
+- ingredient: ½-1 tsp whole Sichuan peppercorns
 - ingredient: ½ tsp ground ancho pepper (optional)
-- ingredient: 1-2 tsps minced garlic (we use garlic jarred in oil)
+- ingredient: 1 tbsp minced garlic (we use garlic jarred in oil)
 - ingredient: Salt and black pepper to taste
 tags:
 - Side
